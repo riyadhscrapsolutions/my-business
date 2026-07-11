@@ -1,8 +1,0 @@
-my-business/
-├── .github/
-├── images/
-├── .nojekyll          ✅
-├── CNAME              ✅ (NEW - must be in root)
-├── index.html         ✅
-├── robots.txt         ✅
-└── sitemap.xml        ✅
