@@ -1024,6 +1024,36 @@
                 font-size: 2.2rem !important;
             }
         }
+
+        /* ===== LAUNCH BADGE STYLES ===== */
+        .launch-badge-wrapper {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 20px;
+            max-width: 550px;
+            margin: 30px auto 0;
+            border: 1px solid rgba(231, 76, 60, 0.15);
+            backdrop-filter: blur(4px);
+        }
+        .launch-badge-wrapper iframe {
+            border-radius: 12px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .launch-badge-wrapper iframe:hover {
+            transform: scale(1.02);
+        }
+        .launch-badge-wrapper .badge-label {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .launch-badge-wrapper .badge-label span {
+            color: #e74c3c;
+        }
     </style>
 </head>
 <body>
@@ -1050,9 +1080,22 @@
                 <strong>Free pickup</strong> &amp; instant cash payment.
             </p>
             <div class="hero-buttons">
-                <a href="tel:+966574712106" class="btn-primary">     📞 Call for Quote </a>
+                <a href="tel:+966574712106" class="btn-primary">📞 Call for Quote</a>
                 <a href="https://wa.me/966574712106" target="_blank" class="btn-outline-light">💬 WhatsApp Us</a>
             </div>
+
+            <!-- ===== LAUNCH RECORD BADGE - HERO SECTION ===== -->
+            <div class="launch-badge-wrapper">
+                <div class="badge-label">🏆 <span>Verified</span> Since July 2026</div>
+                <iframe 
+                    src="https://websiteLaunches.com/site/riyadhscrapsolutions" 
+                    frameborder="0" 
+                    width="100%" 
+                    height="260" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <!-- ===== END LAUNCH RECORD BADGE ===== -->
         </div>
     </section>
 
@@ -1614,7 +1657,7 @@
         <div class="container">
             <h2>📞 Call or <span>Visit</span> Today</h2>
             <p>Serving all areas across Riyadh. Get a free quote in minutes.</p>
-            <a href="tel:+966574712106" class="btn-primary">     📞 Call Now: +966 57 471 2106 </a>
+            <a href="tel:+966574712106" class="btn-primary">📞 Call Now: +966 57 471 2106</a>
             <div class="contact-details">
                 <div class="detail">📍 Sulayman Bin Yaseer, Riyadh</div>
                 <div class="detail">🕒 Sat–Thu: 7 AM – 9 PM | Fri Closed</div>
@@ -1626,13 +1669,22 @@
     <!-- ===== FOOTER ===== -->
     <footer>
         <div class="container">
-            <!-- Launch Record Badge -->
-            <div style="margin-bottom: 20px;">
-                <a href="https://websitelaunches.com/">
-                    <img src="https://websitelaunches.com/badge/rait" alt="Established online - Public launch" width="255" height="55">
-                </a>
+            <!-- ===== LAUNCH RECORD BADGE - FOOTER ===== -->
+            <div style="margin-bottom: 25px; max-width: 500px; margin-left: auto; margin-right: auto;">
+                <div style="color: rgba(255,255,255,0.5); font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; font-weight: 600;">
+                    🏆 Verified Launch Record
+                </div>
+                <iframe 
+                    src="https://websiteLaunches.com/site/riyadhscrapsolutions" 
+                    frameborder="0" 
+                    width="100%" 
+                    height="260" 
+                    allowfullscreen
+                    style="border-radius: 12px; box-shadow: 0 4px 25px rgba(0,0,0,0.4);">
+                </iframe>
             </div>
-            
+            <!-- ===== END LAUNCH RECORD BADGE ===== -->
+
             <p>&copy; 2026 Riyadh Scrap Solutions. All rights reserved.</p>
             <div class="footer-links">
                 <a href="#about">About</a>
