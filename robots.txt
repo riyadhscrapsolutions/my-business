@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://riyadscrapsolutions.com/sitemap.xml
-Host: riyadscrapsolutions.com
