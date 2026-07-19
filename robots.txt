@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://riyadhscrapsolutions.github.io/my-business/sitemap.xml
+Sitemap: https://riyadscrapsolutions.com/sitemap.xml
