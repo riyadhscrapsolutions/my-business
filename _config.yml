@@ -1,2 +1,10 @@
+# Site settings
 url: https://riyadscrapsolutions.com
 baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# GitHub Pages settings
+github: [metadata]
