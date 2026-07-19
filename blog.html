@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-SA">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>Blog | Riyadh Scrap Solutions - Tips & News on Scrap Recycling</title>
+    <meta name="description" content="Read our blog for tips on scrap recycling, market prices, building demolition, and more in Riyadh.">
+    <meta name="keywords" content="scrap recycling blog Riyadh, scrap prices, building demolition tips, metal recycling guide">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://riyadscrapsolutions.com/blog.html" />
+    
+    <meta property="og:title" content="Blog | Riyadh Scrap Solutions">
+    <meta property="og:description" content="Tips, guides, and news about scrap recycling in Riyadh.">
+    <meta property="og:url" content="https://riyadscrapsolutions.com/blog.html">
+    <meta property="og:image" content="https://riyadscrapsolutions.com/logo.png">
+    <meta property="og:type" content="website">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background: #f8f6f2; color: #1e1a1a; line-height: 1.7; }
+        a { text-decoration: none; color: inherit; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(30, 26, 26, 0.96);
+            backdrop-filter: blur(12px);
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(192, 57, 43, 0.2);
+        }
+        .header-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo p { font-size: 0.75rem; opacity: 0.7; color: #b8b0b0; letter-spacing: 2px; font-weight: 600; text-transform: uppercase; }
+        .logo p a { color: #fff; }
+        .main-nav { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
+        .main-nav a { color: rgba(255,255,255,0.7); font-weight: 500; font-size: 0.9rem; transition: 0.3s; padding: 6px 12px; border-radius: 6px; }
+        .main-nav a:hover, .main-nav a.active { color: #fff; background: rgba(192, 57, 43, 0.2); }
+        .header-phone { background: rgba(192, 57, 43, 0.15); border: 1px solid rgba(192, 57, 43, 0.3); padding: 8px 18px; border-radius: 50px; font-weight: 700; font-size: 0.95rem; color: #c0392b; transition: 0.3s; }
+        .header-phone:hover { background: #c0392b; color: #fff; }
+        .header-phone a { color: inherit; }
+
+        .page-hero {
+            padding: 140px 0 60px;
+            background: linear-gradient(165deg, #1e1a1a 0%, #2d1a1a 40%, #1e1a1a 100%);
+            text-align: center;
+        }
+        .page-hero h1 { font-size: 3.2rem; font-weight: 900; color: #fff; }
+        .page-hero h1 span { color: #c0392b; }
+        .page-hero p { color: rgba(255,255,255,0.6); max-width: 700px; margin: 10px auto 0; font-size: 1.1rem; }
+
+        .section-title { text-align: center; font-size: 2.5rem; font-weight: 800; color: #1e1a1a; margin-bottom: 10px; }
+        .section-title span { color: #c0392b; }
+        .section-sub { text-align: center; color: #7a6e6e; max-width: 600px; margin: 0 auto 40px; font-size: 1.05rem; }
+
+        .blog-section { padding: 60px 0; background: #fff; }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .blog-card {
+            background: #fdf6f5;
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #f0e0de;
+            transition: 0.3s;
+        }
+        .blog-card:hover { transform: translateY(-4px); border-color: #c0392b; box-shadow: 0 8px 30px rgba(0,0,0,0.06); }
+        .blog-card .date { color: #c0392b; font-size: 0.85rem; font-weight: 600; }
+        .blog-card h3 { font-size: 1.4rem; color: #1e1a1a; margin: 8px 0 12px; }
+        .blog-card p { color: #5a4e4e; }
+        .blog-card .read-more { color: #c0392b; font-weight: 600; display: inline-block; margin-top: 12px; }
+        .blog-card .read-more:hover { text-decoration: underline; }
+
+        .btn-primary {
+            display: inline-block;
+            background: #c0392b;
+            color: #fff;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            transition: 0.3s;
+        }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(192,57,43,0.4); }
+
+        .cta-section { padding: 60px 0; background: #1e1a1a; text-align: center; }
+        .cta-section h2 { color: #fff; font-size: 2.2rem; }
+        .cta-section p { color: rgba(255,255,255,0.6); margin: 10px 0 25px; }
+
+        footer { background: #100a0a; color: rgba(255,255,255,0.5); padding: 35px 0; text-align: center; font-size: 0.9rem; }
+        footer a { color: #c0392b; }
+        .footer-links { margin-top: 10px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 20px; }
+
+        .mobile-nav-toggle { display: none; background: none; border: none; color: #fff; font-size: 1.8rem; cursor: pointer; }
+        @media (max-width: 768px) {
+            .mobile-nav-toggle { display: block; }
+            .main-nav { display: none; flex-direction: column; width: 100%; background: #1e1a1a; padding: 20px; border-radius: 12px; margin-top: 10px; }
+            .main-nav.open { display: flex; }
+            .main-nav a { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+            .header-flex { flex-direction: column; gap: 10px; }
+            .page-hero h1 { font-size: 2rem; }
+            .section-title { font-size: 1.8rem; }
+            .blog-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <p><a href="/">SCRAP BUYERS &amp; RECYCLING</a></p>
+            </div>
+            <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <a href="/">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="header-phone">
+                📞 <a href="tel:+966574712106">+966 57 471 2106</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our <span>Blog</span></h1>
+            <p>Tips, guides, and news about scrap recycling in Riyadh.</p>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Latest <span>Posts</span></h2>
+            <p class="section-sub">Read our latest articles for tips and insights.</p>
+
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="date">July 19, 2026</div>
+                    <h3>Top 5 Benefits of Recycling Scrap Metal</h3>
+                    <p>Discover why recycling scrap metal is good for you and the environment. Learn about the environmental and economic benefits.</p>
+                    <a href="/#blog1" class="read-more">Read More →</a>
+                </div>
+
+                <div class="blog-card">
+                    <div class="date">July 18, 2026</div>
+                    <h3>How to Get the Best Price for Your Scrap</h3>
+                    <p>Tips to maximize your earnings when selling scrap metal. Learn how to separate metals and choose the right buyer.</p>
+                    <a href="/#blog2" class="read-more">Read More →</a>
+                </div>
+
+                <div class="blog-card">
+                    <div class="date">July 17, 2026</div>
+                    <h3>Complete Guide to Building Demolition in Riyadh</h3>
+                    <p>Everything you need to know about building demolition and scrap removal in Riyadh. Free service available.</p>
+                    <a href="/#blog3" class="read-more">Read More →</a>
+                </div>
+
+                <div class="blog-card">
+                    <div class="date">July 16, 2026</div>
+                    <h3>Understanding Scrap Metal Prices in Riyadh</h3>
+                    <p>Learn about current scrap metal prices in Riyadh. Copper, aluminum, steel, and more — updated regularly.</p>
+                    <a href="/#blog3" class="read-more">Read More →</a>
+                </div>
+
+                <div class="blog-card">
+                    <div class="date">July 15, 2026</div>
+                    <h3>Why Choose Professional Scrap Buyers?</h3>
+                    <p>Benefits of working with professional scrap buyers like Riyadh Scrap Solutions. Fair prices, free pickup, and more.</p>
+                    <a href="/#blog2" class="read-more">Read More →</a>
+                </div>
+
+                <div class="blog-card">
+                    <div class="date">July 14, 2026</div>
+                    <h3>Eco-Friendly Scrap Recycling Tips</h3>
+                    <p>Learn how to recycle scrap responsibly and contribute to a greener Saudi Arabia. Simple tips for everyone.</p>
+                    <a href="/#blog1" class="read-more">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Have Scrap to <span style="color: #c0392b;">Sell?</span></h2>
+            <p>Contact us for a free quote and same-day pickup.</p>
+            <a href="tel:+966574712106" class="btn-primary">📞 Call Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('mainNav').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
