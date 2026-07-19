@@ -8,15 +8,15 @@
     <meta name="twitter:image" content="https://riyadscrapsolutions.com/logo.png">
     <meta charset="UTF-8">
     
-    <!-- ✅ IMPROVED TITLE (more keyword-rich) -->
+    <!-- ✅ IMPROVED TITLE -->
     <title>Riyadh Scrap Solutions | Best Scrap Buyer in Riyadh | Free Pickup & Cash</title>
     
     <meta name="google-site-verification" content="-PI_NFbYV132N9wd5SPICJI8T9DVRTFhSfo09gTKvpI" />
     
-    <!-- ✅ IMPROVED DESCRIPTION (more compelling) -->
+    <!-- ✅ DESCRIPTION -->
     <meta name="description" content="Riyadh Scrap Solutions - Trusted scrap buyers in Riyadh. We buy copper, aluminum, steel, iron, AC units, batteries, cars & more. Free pickup & instant cash payment. Call now!">
     
-    <!-- ✅ EXPANDED KEYWORDS -->
+    <!-- ✅ KEYWORDS -->
     <meta name="keywords" content="scrap buyer Riyadh, metal scrap Riyadh, copper scrap Riyadh, aluminum scrap Riyadh, steel scrap buyer, scrap recycling Riyadh, free scrap pickup Riyadh, car scrap buyer, AC scrap buyer, battery scrap Riyadh, building demolition Riyadh, rubbish removal Riyadh, scrap dealer Riyadh, cash for scrap Riyadh">
     
     <meta name="robots" content="index, follow">
@@ -24,10 +24,10 @@
     <meta name="theme-color" content="#0d2818">
     <meta name="author" content="Riyadh Scrap Solutions">
     
-    <!-- ✅ FIXED CANONICAL - NOW CORRECT -->
+    <!-- ✅ FIXED CANONICAL -->
     <link rel="canonical" href="https://riyadscrapsolutions.com/" />
     
-    <!-- ✅ IMPROVED OG TAGS - FIXED URLs -->
+    <!-- ✅ OG TAGS -->
     <meta property="og:title" content="Riyadh Scrap Solutions | Professional Scrap Buyer in Riyadh">
     <meta property="og:description" content="We buy copper, aluminum, iron, AC units, batteries & all types of scrap in Riyadh. Free pickup & instant cash payment.">
     <meta property="og:type" content="website">
@@ -39,7 +39,7 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-    <!-- ✅ IMPROVED SCHEMA MARKUP - FIXED URLs -->
+    <!-- ✅ SCHEMA MARKUP -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -210,16 +210,6 @@
             flex-wrap: wrap;
         }
 
-        .logo h1 {
-            font-size: 1.6rem;
-            font-weight: 900;
-            color: #fff;
-        }
-
-        .logo span {
-            color: #c0392b;
-        }
-
         .logo p {
             font-size: 0.75rem;
             opacity: 0.7;
@@ -227,6 +217,34 @@
             letter-spacing: 2px;
             font-weight: 600;
             text-transform: uppercase;
+        }
+
+        .logo p a {
+            color: #fff;
+        }
+
+        /* ===== MAIN NAVIGATION ===== */
+        .main-nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .main-nav a {
+            color: rgba(255,255,255,0.7);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: 0.3s;
+            padding: 6px 12px;
+            border-radius: 6px;
+        }
+        .main-nav a:hover {
+            color: #fff;
+            background: rgba(192, 57, 43, 0.2);
+        }
+        .main-nav a.active {
+            color: #fff;
+            background: rgba(192, 57, 43, 0.3);
         }
 
         .header-phone {
@@ -247,6 +265,15 @@
 
         .header-phone a {
             color: inherit;
+        }
+
+        .mobile-nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 1.8rem;
+            cursor: pointer;
         }
 
         /* ===== HERO ===== */
@@ -622,18 +649,6 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-        }
-
-        .gallery-item .placeholder {
-            color: #aaa;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .gallery-item .placeholder .icon {
-            font-size: 3.5rem;
-            display: block;
-            margin-bottom: 8px;
         }
 
         .upload-area {
@@ -1281,8 +1296,27 @@
                 padding: 12px 0;
             }
 
-            .logo h1 {
-                font-size: 1.3rem;
+            .mobile-nav-toggle {
+                display: block;
+            }
+
+            .main-nav {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background: #1e1a1a;
+                padding: 20px;
+                border-radius: 12px;
+                margin-top: 10px;
+            }
+
+            .main-nav.open {
+                display: flex;
+            }
+
+            .main-nav a {
+                padding: 10px 0;
+                border-bottom: 1px solid rgba(255,255,255,0.05);
             }
 
             .header-phone {
@@ -1372,19 +1406,26 @@
 </head>
 <body>
 
-    <!-- ✅ SKIP TO CONTENT (accessibility + SEO) -->
+    <!-- ===== SKIP TO CONTENT ===== -->
     <a href="#main-content" class="skip-link">Skip to content</a>
 
     <!-- ===== HEADER ===== -->
     <header>
         <div class="container header-flex">
             <div class="logo">
-                <a href="/" aria-label="Riyadh Scrap Solutions Home">
-                    <p>SCRAP BUYERS &amp; RECYCLING</p>
-                </a>
+                <p><a href="/">SCRAP BUYERS &amp; RECYCLING</a></p>
             </div>
+            <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <a href="/" class="active">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
             <div class="header-phone">
-                📞 <a href="tel:+966574712106" aria-label="Call us at +966 57 471 2106">+966 57 471 2106</a>
+                📞 <a href="tel:+966574712106">+966 57 471 2106</a>
             </div>
         </div>
     </header>
@@ -1393,16 +1434,14 @@
     <section class="hero" id="main-content">
         <div class="container">
             <div class="hero-badge">📍 Serving All Areas of Riyadh</div>
-            <!-- ✅ H1 WITH PRIMARY KEYWORD -->
             <h1>Riyadh Scrap Solutions – <span>Professional</span> Scrap Buyer in Riyadh</h1>
-            <!-- ✅ H2 FOR SECONDARY KEYWORD -->
             <h2 class="hero-subtitle">
                 We buy all types of scrap — copper, aluminum, steel, cars, and more.
                 <strong>Free pickup</strong> &amp; instant cash payment.
             </h2>
             <div class="hero-buttons">
-                <a href="tel:+966574712106" class="btn-primary" aria-label="Call for quote">📞 Call for Quote</a>
-                <a href="https://wa.me/966574712106" target="_blank" class="btn-outline-light" aria-label="Contact us on WhatsApp">💬 WhatsApp Us</a>
+                <a href="tel:+966574712106" class="btn-primary">📞 Call for Quote</a>
+                <a href="https://wa.me/966574712106" target="_blank" class="btn-outline-light">💬 WhatsApp Us</a>
             </div>
 
             <div class="launch-badge-wrapper">
@@ -1420,7 +1459,7 @@
     </div>
 </section>
 
-<!-- ✅ BREADCRUMBS (helps SEO) -->
+<!-- ===== BREADCRUMBS ===== -->
 <nav class="breadcrumb-nav" aria-label="Breadcrumb">
     <div class="container">
         <ol>
@@ -1967,12 +2006,12 @@
         <h2 class="section-title">Connect With <span style="color: #c0392b;">Us</span></h2>
         <p class="section-sub">Follow us on social media for updates and offers.</p>
         <div class="social-icons">
-            <a href="https://wa.me/966574712106" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">💬 WhatsApp</a>
-            <a href="https://www.instagram.com/riyadhscrapsolutions" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">📸 Instagram</a>
-            <a href="https://www.facebook.com/scrapbuyerinriyadh" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">👍 Facebook</a>
-            <a href="https://x.com/riyadhscrapbuyer" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">🐦 Twitter</a>
-            <a href="https://www.tiktok.com/@riyadhscrapsolutions" target="_blank" rel="noopener noreferrer" aria-label="Follow us on TikTok">🎵 TikTok</a>
-            <a href="https://www.threads.com/@riyadhscrapsolutions" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Threads">🧵 Threads</a>
+            <a href="https://wa.me/966574712106" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+            <a href="https://www.instagram.com/riyadhscrapsolutions" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+            <a href="https://www.facebook.com/scrapbuyerinriyadh" target="_blank" rel="noopener noreferrer">👍 Facebook</a>
+            <a href="https://x.com/riyadhscrapbuyer" target="_blank" rel="noopener noreferrer">🐦 Twitter</a>
+            <a href="https://www.tiktok.com/@riyadhscrapsolutions" target="_blank" rel="noopener noreferrer">🎵 TikTok</a>
+            <a href="https://www.threads.com/@riyadhscrapsolutions" target="_blank" rel="noopener noreferrer">🧵 Threads</a>
         </div>
     </div>
 </section>
@@ -1994,7 +2033,6 @@
 <!-- ===== FOOTER ===== -->
 <footer>
     <div class="container">
-        <!-- ✅ BUSINESS INFO IN FOOTER -->
         <div class="footer-info">
             <span>📍 Sulayman Bin Yaseer, Riyadh</span>
             <span>🕒 Sat–Thu: 7 AM – 9 PM</span>
@@ -2020,19 +2058,22 @@
 
     <p>&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. All rights reserved.</p>
     <div class="footer-links">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#items">Items</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#form">Quote</a>
-        <a href="#social">Social</a>
-        <a href="#contact">Contact</a>
+        <a href="/">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
     </div>
 </div>
 </footer>
 
 <script>
+    // ===== MOBILE NAV TOGGLE =====
+    function toggleNav() {
+        document.getElementById('mainNav').classList.toggle('open');
+    }
+
     // ===== CONTACT FORM =====
     function handleFormSubmit(event) {
         event.preventDefault();
