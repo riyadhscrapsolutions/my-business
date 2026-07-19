@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-SA">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>Gallery | Riyadh Scrap Solutions - Scrap Collection Photos in Riyadh</title>
+    <meta name="description" content="See our work! Photos of scrap collection, recycling, building demolition, and more from Riyadh Scrap Solutions.">
+    <meta name="keywords" content="scrap collection photos Riyadh, recycling gallery, building demolition images">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://riyadscrapsolutions.com/gallery.html" />
+    
+    <meta property="og:title" content="Gallery | Riyadh Scrap Solutions">
+    <meta property="og:description" content="Photos of our scrap collection, recycling, and demolition work in Riyadh.">
+    <meta property="og:url" content="https://riyadscrapsolutions.com/gallery.html">
+    <meta property="og:image" content="https://riyadscrapsolutions.com/logo.png">
+    <meta property="og:type" content="website">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background: #f8f6f2; color: #1e1a1a; line-height: 1.7; }
+        a { text-decoration: none; color: inherit; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(30, 26, 26, 0.96);
+            backdrop-filter: blur(12px);
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(192, 57, 43, 0.2);
+        }
+        .header-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo p { font-size: 0.75rem; opacity: 0.7; color: #b8b0b0; letter-spacing: 2px; font-weight: 600; text-transform: uppercase; }
+        .logo p a { color: #fff; }
+        .main-nav { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
+        .main-nav a { color: rgba(255,255,255,0.7); font-weight: 500; font-size: 0.9rem; transition: 0.3s; padding: 6px 12px; border-radius: 6px; }
+        .main-nav a:hover, .main-nav a.active { color: #fff; background: rgba(192, 57, 43, 0.2); }
+        .header-phone { background: rgba(192, 57, 43, 0.15); border: 1px solid rgba(192, 57, 43, 0.3); padding: 8px 18px; border-radius: 50px; font-weight: 700; font-size: 0.95rem; color: #c0392b; transition: 0.3s; }
+        .header-phone:hover { background: #c0392b; color: #fff; }
+        .header-phone a { color: inherit; }
+
+        .page-hero {
+            padding: 140px 0 60px;
+            background: linear-gradient(165deg, #1e1a1a 0%, #2d1a1a 40%, #1e1a1a 100%);
+            text-align: center;
+        }
+        .page-hero h1 { font-size: 3.2rem; font-weight: 900; color: #fff; }
+        .page-hero h1 span { color: #c0392b; }
+        .page-hero p { color: rgba(255,255,255,0.6); max-width: 700px; margin: 10px auto 0; font-size: 1.1rem; }
+
+        .section-title { text-align: center; font-size: 2.5rem; font-weight: 800; color: #1e1a1a; margin-bottom: 10px; }
+        .section-title span { color: #c0392b; }
+        .section-sub { text-align: center; color: #7a6e6e; max-width: 600px; margin: 0 auto 40px; font-size: 1.05rem; }
+
+        .gallery-section { padding: 60px 0; background: #fff; }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        .gallery-item {
+            background: #fdf6f5;
+            border-radius: 16px;
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #f0e0de;
+            transition: 0.3s;
+            position: relative;
+        }
+        .gallery-item:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .gallery-item .placeholder {
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+        }
+        .gallery-item .placeholder .icon { font-size: 3.5rem; display: block; margin-bottom: 8px; }
+
+        .upload-area {
+            background: #fff;
+            padding: 45px;
+            border-radius: 16px;
+            text-align: center;
+            border: 2px dashed #c0392b;
+            margin-top: 40px;
+            transition: 0.3s;
+        }
+        .upload-area:hover { border-color: #1e1a1a; background: #fdf6f5; }
+        .upload-area input[type="file"] { display: none; }
+        .upload-label {
+            display: inline-block;
+            background: #1e1a1a;
+            color: #fff;
+            padding: 14px 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 1rem;
+        }
+        .upload-label:hover { background: #c0392b; transform: translateY(-2px); }
+        .upload-area p { margin-top: 14px; color: #888; font-size: 0.9rem; }
+
+        #imagePreview {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 24px;
+            justify-content: center;
+        }
+        #imagePreview img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 3px solid #c0392b;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: #c0392b;
+            color: #fff;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            transition: 0.3s;
+        }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(192,57,43,0.4); }
+
+        .cta-section { padding: 60px 0; background: #1e1a1a; text-align: center; }
+        .cta-section h2 { color: #fff; font-size: 2.2rem; }
+        .cta-section p { color: rgba(255,255,255,0.6); margin: 10px 0 25px; }
+
+        footer { background: #100a0a; color: rgba(255,255,255,0.5); padding: 35px 0; text-align: center; font-size: 0.9rem; }
+        footer a { color: #c0392b; }
+        .footer-links { margin-top: 10px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 20px; }
+
+        .mobile-nav-toggle { display: none; background: none; border: none; color: #fff; font-size: 1.8rem; cursor: pointer; }
+        @media (max-width: 768px) {
+            .mobile-nav-toggle { display: block; }
+            .main-nav { display: none; flex-direction: column; width: 100%; background: #1e1a1a; padding: 20px; border-radius: 12px; margin-top: 10px; }
+            .main-nav.open { display: flex; }
+            .main-nav a { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+            .header-flex { flex-direction: column; gap: 10px; }
+            .page-hero h1 { font-size: 2rem; }
+            .section-title { font-size: 1.8rem; }
+            .gallery-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 480px) {
+            .gallery-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <p><a href="/">SCRAP BUYERS &amp; RECYCLING</a></p>
+            </div>
+            <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <a href="/">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html" class="active">Gallery</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="header-phone">
+                📞 <a href="tel:+966574712106">+966 57 471 2106</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our <span>Gallery</span></h1>
+            <p>See our work across Riyadh — scrap collection, recycling, and demolition.</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Photo <span>Gallery</span></h2>
+            <p class="section-sub">Real photos of our scrap collection and recycling work across Riyadh.</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery1.jpg" alt="Copper scrap collection in Riyadh">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery2.jpg" alt="Aluminum scrap collection Riyadh">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery3.jpg" alt="Steel scrap pickup Riyadh">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery4.jpg" alt="AC unit scrap buyer Riyadh">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery5.jpg" alt="Industrial scrap collection Riyadh">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery6.jpg" alt="Metal recycling Riyadh">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery7.jpg" alt="Scrap yard Riyadh">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery8.jpg" alt="Building demolition scrap removal Riyadh">
+                </div>
+            </div>
+
+            <div class="upload-area">
+                <input type="file" id="imageUpload" accept="image/*" multiple>
+                <label for="imageUpload" class="upload-label">📤 Upload Your Images</label>
+                <p>Upload images of your scrap for a quick quote</p>
+            </div>
+            <div id="imagePreview"></div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Have Scrap to <span style="color: #c0392b;">Sell?</span></h2>
+            <p>Upload your images or call us for a free quote.</p>
+            <a href="tel:+966574712106" class="btn-primary">📞 Call Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('mainNav').classList.toggle('open');
+        }
+
+        document.getElementById('imageUpload').addEventListener('change', function(event) {
+            const preview = document.getElementById('imagePreview');
+            preview.innerHTML = '';
+            for (let file of event.target.files) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.alt = "Uploaded scrap image";
+                    preview.appendChild(img);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+</html>
