@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en-SA">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Building Demolition in Riyadh | Free Demolition Services | Riyadh Scrap Solutions</title>
+    <meta name="description" content="Free building demolition in Riyadh. We demolish buildings and remove scrap steel, doors, windows, AC units & more. Free pickup & instant cash. Call now!" />
+    <meta name="keywords" content="building demolition Riyadh, demolition services Riyadh, free building demolition, scrap removal Riyadh" />
+    <link rel="canonical" href="https://riyadscrapsolutions.com/demolition/" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f0; color: #2d2d2d; line-height: 1.7; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(26, 26, 46, 0.96);
+            backdrop-filter: blur(12px);
+            padding: 14px 0;
+            border-bottom: 1px solid rgba(26, 122, 58, 0.2);
+        }
+        .header-flex { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .logo h1 { font-size: 1.6rem; font-weight: 900; color: #fff; }
+        .logo h1 span { color: #e8a838; }
+        .logo p { font-size: 0.75rem; opacity: 0.7; color: #b8b0b0; letter-spacing: 2px; font-weight: 600; text-transform: uppercase; }
+        .header-phone { background: rgba(26, 122, 58, 0.15); border: 1px solid rgba(26, 122, 58, 0.3); padding: 10px 22px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; color: #1a7a3a; transition: 0.3s; }
+        .header-phone:hover { background: #1a7a3a; color: #fff; }
+        .header-phone a { color: inherit; }
+
+        .main-nav { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
+        .main-nav a { color: rgba(255,255,255,0.7); font-weight: 500; font-size: 0.9rem; transition: 0.3s; padding: 6px 12px; border-radius: 6px; }
+        .main-nav a:hover, .main-nav a.active { color: #fff; background: rgba(26, 122, 58, 0.2); }
+        .mobile-nav-toggle { display: none; background: none; border: none; color: #fff; font-size: 1.8rem; cursor: pointer; }
+
+        .hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(165deg, #1a1a2e 0%, #0d2818 40%, #1a1a2e 100%);
+            text-align: center;
+        }
+        .hero h1 { font-size: 3.5rem; font-weight: 900; color: #fff; line-height: 1.1; }
+        .hero h1 span { color: #e8a838; }
+        .hero p { color: rgba(255,255,255,0.8); max-width: 700px; margin: 15px auto 30px; font-size: 1.2rem; }
+        .hero-badge { display: inline-block; background: rgba(26, 122, 58, 0.25); color: #ffffff; padding: 6px 24px; border-radius: 50px; font-size: 0.85rem; font-weight: 600; margin-bottom: 20px; border: 1px solid rgba(26, 122, 58, 0.3); text-transform: uppercase; }
+
+        .btn-primary { display: inline-block; background: #1a7a3a; color: #fff; padding: 16px 40px; border-radius: 50px; font-weight: 700; font-size: 1.05rem; transition: 0.3s; border: none; cursor: pointer; }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(26,122,58,0.4); background: #136a30; }
+        .btn-outline { display: inline-block; background: transparent; color: #fff; padding: 16px 40px; border-radius: 50px; font-weight: 700; font-size: 1.05rem; border: 2px solid rgba(255,255,255,0.3); transition: 0.3s; }
+        .btn-outline:hover { background: #fff; color: #1a1a2e; }
+
+        .section-title { text-align: center; font-size: 2.8rem; font-weight: 900; color: #1a1a2e; margin-bottom: 12px; }
+        .section-title span { color: #e8a838; }
+        .section-sub { text-align: center; color: #6b6b6b; max-width: 600px; margin: 0 auto 50px; font-size: 1.1rem; }
+
+        .about-section { padding: 80px 0; background: #fff; }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start; }
+        .about-grid h2 { font-size: 2.2rem; color: #1a1a2e; margin-bottom: 15px; }
+        .about-grid p { color: #4d4d4d; margin-bottom: 15px; }
+        .about-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; list-style: none; padding: 0; }
+        .about-list li { padding: 6px 0; color: #3d3d3d; display: flex; align-items: center; gap: 10px; }
+        .about-list li::before { content: "🏗️"; color: #e8a838; font-weight: 700; }
+
+        .services-section { padding: 80px 0; background: #f5f5f0; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .service-card { background: #fff; padding: 35px 25px; border-radius: 16px; text-align: center; transition: 0.3s; border: 1px solid #e8e8e0; }
+        .service-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); border-color: #e8a838; }
+        .service-card .icon { font-size: 3rem; margin-bottom: 15px; display: block; }
+        .service-card h3 { font-size: 1.5rem; font-weight: 800; color: #1a1a2e; margin-bottom: 8px; }
+        .service-card p { color: #6b6b6b; }
+
+        .cta-section { padding: 60px 0; background: #1a1a2e; text-align: center; }
+        .cta-section h2 { color: #fff; font-size: 2.5rem; }
+        .cta-section p { color: rgba(255,255,255,0.6); margin: 15px 0 30px; font-size: 1.1rem; }
+        .contact-details { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 30px; }
+        .contact-details .detail { background: #f5f5f0; padding: 14px 28px; border-radius: 50px; font-weight: 500; color: #3d3d3d; border: 1px solid #e8e8e0; }
+        .contact-details .detail a { color: #1a7a3a; font-weight: 600; }
+
+        footer { background: #100a0a; color: rgba(255,255,255,0.5); padding: 35px 0; text-align: center; font-size: 0.9rem; }
+        footer a { color: #1a7a3a; }
+        .footer-links { margin-top: 10px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 20px; }
+
+        @media (max-width: 768px) {
+            .mobile-nav-toggle { display: block; }
+            .main-nav { display: none; flex-direction: column; width: 100%; background: #1a1a2e; padding: 20px; border-radius: 12px; margin-top: 10px; }
+            .main-nav.open { display: flex; }
+            .main-nav a { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+            .header-flex { flex-direction: column; gap: 10px; }
+            .hero h1 { font-size: 2.2rem; }
+            .about-grid { grid-template-columns: 1fr; }
+            .about-list { grid-template-columns: 1fr; }
+            .contact-details { flex-direction: column; align-items: center; }
+            .hero { padding: 120px 0 60px; }
+            .section-title { font-size: 2rem; }
+            .services-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <h1>Building <span>Demolition</span></h1>
+                <p>DEMOLITION SERVICES IN RIYADH</p>
+            </div>
+            <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <a href="/">Home</a>
+                <a href="/services.html">Services</a>
+                <a href="/about.html">About</a>
+                <a href="/gallery.html">Gallery</a>
+                <a href="/blog.html">Blog</a>
+                <a href="/buyers/">Scrap Buyers</a>
+                <a href="/pickup/">Free Pickup</a>
+                <a href="/copper/">Copper</a>
+                <a href="/aluminum/">Aluminum</a>
+                <a href="/recycle/">Recycling</a>
+                <a href="/industrial/">Industrial</a>
+                <a href="/steel/">Steel</a>
+                <a href="/cars/">Cars</a>
+                <a href="/demolition/" class="active">Demolition</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+            <div class="header-phone">
+                📞 <a href="tel:+966574712106">+966 57 471 2106</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">🏗️ Free Building Demolition Services</div>
+            <h1>Building <span>Demolition</span> in Riyadh</h1>
+            <p>We offer free building demolition and scrap removal. We remove steel structures, doors, windows, AC units &amp; more. <strong>Free service</strong> &amp; <strong>instant cash</strong>.</p>
+            <a href="tel:+966574712106" class="btn-primary">📞 Call for Demolition</a>
+            <a href="https://wa.me/966574712106" target="_blank" class="btn-outline" style="margin-left:10px;">💬 WhatsApp</a>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">Building <span>Demolition</span> Services</h2>
+            <p class="section-sub">Free demolition services across Riyadh.</p>
+            <div class="about-grid">
+                <div>
+                    <h2>Free Building Demolition</h2>
+                    <p>We offer free building demolition and scrap removal services in Riyadh. Whether you're demolishing a small building or a large structure, we handle everything professionally.</p>
+                    <h3 style="margin:20px 0 10px;">What We Remove:</h3>
+                    <ul class="about-list">
+                        <li>Steel Structures</li>
+                        <li>Steel Doors &amp; Windows</li>
+                        <li>AC Units &amp; Compressors</li>
+                        <li>Electrical Cables</li>
+                        <li>Reusable Materials</li>
+                        <li>Building Waste</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Why Choose Us?</h2>
+                    <ul class="about-list" style="grid-template-columns:1fr;">
+                        <li>🏗️ Free demolition service</li>
+                        <li>🗑️ Free rubbish removal</li>
+                        <li>⚡ Instant cash payment</li>
+                        <li>🏆 Professional and reliable</li>
+                        <li>📍 Serving all areas of Riyadh</li>
+                    </ul>
+                    <div style="margin-top:30px; padding:20px; background:#1a1a2e; border-radius:12px; color:#fff;">
+                        📍 Serving all areas of Riyadh<br>
+                        <a href="tel:+966574712106" style="color:#e8a838; font-weight:700;">Call Now: +966 57 471 2106</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our <span>Demolition</span> Services</h2>
+            <p class="section-sub">Professional demolition services across Riyadh.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="icon">🏗️</span>
+                    <h3>Free Demolition</h3>
+                    <p>We demolish buildings and remove scrap at no cost.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon">🗑️</span>
+                    <h3>Rubbish Removal</h3>
+                    <p>Free clearing and removal of building waste.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon">⚡</span>
+                    <h3>Instant Cash</h3>
+                    <p>Get paid immediately upon completion of demolition.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon">♻️</span>
+                    <h3>Eco-Friendly</h3>
+                    <p>Environmentally responsible demolition and recycling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>🏗️ <span style="color:#e8a838;">Free Demolition</span> Quote Today</h2>
+            <p>Get a free quote and same-day demolition service.</p>
+            <a href="tel:+966574712106" class="btn-primary">📞 Call Now: +966 57 471 2106</a>
+            <div class="contact-details">
+                <div class="detail">📍 Sulayman Bin Yaseer, Riyadh</div>
+                <div class="detail">🕒 Sat–Thu: 7 AM – 9 PM</div>
+                <div class="detail">💬 <a href="https://wa.me/966574712106" target="_blank">WhatsApp</a></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 <strong>Riyadh Scrap Solutions</strong> — <strong style="color:#e8a838;">Building Demolition in Riyadh</strong></p>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/services.html">Services</a>
+                <a href="/about.html">About</a>
+                <a href="/gallery.html">Gallery</a>
+                <a href="/blog.html">Blog</a>
+                <a href="/buyers/">Scrap Buyers</a>
+                <a href="/pickup/">Free Pickup</a>
+                <a href="/copper/">Copper</a>
+                <a href="/aluminum/">Aluminum</a>
+                <a href="/recycle/">Recycling</a>
+                <a href="/industrial/">Industrial</a>
+                <a href="/steel/">Steel</a>
+                <a href="/cars/">Cars</a>
+                <a href="/demolition/">Demolition</a>
+                <a href="/contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('mainNav').classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>
