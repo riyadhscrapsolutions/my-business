@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-SA">
 <head>
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♻️</text></svg>" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <meta charset="UTF-8" />
     
     <title>Riyadh Scrap Solutions | Best Scrap Buyer in Riyadh | Free Pickup &amp; Cash</title>
@@ -113,7 +113,8 @@
         .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-bottom: 40px; }
         .gallery-item { background: #fff; border-radius: 16px; overflow: hidden; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06); border: 2px solid #e8e8e0; transition: 0.3s; }
         .gallery-item:hover { border-color: #1a7a3a; transform: scale(1.02); }
-        .gallery-item .gallery-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #f5f5f0, #e8e8e0); color: #1a1a2e; font-size: 1.5rem; font-weight: 600; }
+        .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
+        .gallery-item .gallery-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #f5f5f0, #e8e8e0); color: #1a1a2e; font-size: 1.2rem; font-weight: 600; }
         .gallery-item .gallery-placeholder span { font-size: 3rem; margin-bottom: 8px; }
         .upload-area { background: #fff; padding: 45px; border-radius: 16px; text-align: center; border: 2px dashed #1a7a3a; transition: 0.3s; }
         .upload-area:hover { border-color: #1a1a2e; background: #f5f5f0; }
@@ -370,13 +371,27 @@
             <h2 class="section-title">Our <span>Gallery</span></h2>
             <p class="section-sub">Some of our recent scrap collection work across Riyadh.</p>
             <div class="gallery-grid">
-                <div class="gallery-item"><div class="gallery-placeholder"><span>🔩</span>Scrap Collection</div></div>
-                <div class="gallery-item"><div class="gallery-placeholder"><span>♻️</span>Metal Recycling</div></div>
-                <div class="gallery-item"><div class="gallery-placeholder"><span>🔧</span>Copper Scrap</div></div>
-                <div class="gallery-item"><div class="gallery-placeholder"><span>🥫</span>Aluminum Scrap</div></div>
-                <div class="gallery-item"><div class="gallery-placeholder"><span>🏗️</span>Steel Scrap</div></div>
-                <div class="gallery-item"><div class="gallery-placeholder"><span>❄️</span>AC Units</div></div>
-                <div class="gallery-item"><div class="gallery-placeholder"><span>🏭</span>Industrial Scrap</div></div>
+                <div class="gallery-item">
+                    <img src="images/gallery1.jpg" alt="Scrap collection" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery2.jpg" alt="Metal recycling" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery3.jpg" alt="Copper scrap" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery4.jpg" alt="Aluminum scrap" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery5.jpg" alt="Steel scrap" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery6.jpg" alt="AC units" loading="lazy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery7.jpg" alt="Industrial scrap" loading="lazy" />
+                </div>
             </div>
             <div class="upload-area">
                 <input type="file" id="imageUpload" accept="image/*" multiple />
