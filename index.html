@@ -118,6 +118,7 @@
         .gallery-item { background: #fff; border-radius: 16px; overflow: hidden; aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06); border: 2px solid #e8e8e0; transition: 0.3s; }
         .gallery-item:hover { border-color: #1a7a3a; transform: scale(1.02); }
         .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
+        .gallery-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #1a7a3a, #136a30); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.2rem; font-weight: 600; }
         .upload-area { background: #fff; padding: 45px; border-radius: 16px; text-align: center; border: 2px dashed #1a7a3a; transition: 0.3s; }
         .upload-area:hover { border-color: #1a1a2e; background: #f5f5f0; }
         .upload-area input[type="file"] { display: none; }
@@ -257,34 +258,11 @@
             <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
             <nav class="main-nav" id="mainNav">
                 <a href="/" class="active">Home</a>
-                <a href="services.html">Services</a>
-                <a href="about.html">About</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="blog.html">Blog</a>
-                <a href="/buyers/">Scrap Buyers</a>
-                <a href="/pickup/">Free Pickup</a>
-                <a href="/copper/">Copper</a>
-                <a href="/aluminum/">Aluminum</a>
-                <a href="/recycle/">Recycling</a>
-                <a href="/industrial/">Industrial</a>
-                <a href="/steel/">Steel</a>
-                <a href="/cars/">Cars</a>
-                <a href="/demolition/">Demolition</a>
-                <a href="/iron/">Iron</a>
-                <a href="/batteries/">Batteries</a>
-                <a href="/ac-units/">AC Units</a>
-                <a href="/prices/copper/">Copper Prices</a>
-                <a href="/prices/aluminum/">Aluminum Prices</a>
-                <a href="/prices/steel/">Steel Prices</a>
-                <a href="/prices/iron/">Iron Prices</a>
-                <a href="/prices/cars/">Car Prices</a>
-                <a href="/areas/al-olaya/">Al Olaya</a>
-                <a href="/areas/al-malaz/">Al Malaz</a>
-                <a href="/areas/al-nakheel/">Al Nakheel</a>
-                <a href="/areas/al-sulaymaniyah/">Al Sulaymaniyah</a>
-                <a href="/areas/al-rawdah/">Al Rawdah</a>
-                <a href="/testimonials/">Testimonials</a>
-                <a href="contact.html">Contact</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
             </nav>
             <div class="header-phone">
                 📞 <a href="tel:+966574712106">+966 57 471 2106</a>
@@ -396,13 +374,27 @@
             <h2 class="section-title">Our <span>Gallery</span></h2>
             <p class="section-sub">Some of our recent scrap collection work across Riyadh.</p>
             <div class="gallery-grid">
-                <div class="gallery-item"><img src="images/gallery1.jpg" alt="Copper scrap collection" loading="lazy" /></div>
-                <div class="gallery-item"><img src="images/gallery2.jpg" alt="Aluminum scrap collection" loading="lazy" /></div>
-                <div class="gallery-item"><img src="images/gallery3.jpg" alt="Steel scrap pickup" loading="lazy" /></div>
-                <div class="gallery-item"><img src="images/gallery4.jpg" alt="AC unit scrap" loading="lazy" /></div>
-                <div class="gallery-item"><img src="images/gallery5.jpg" alt="Industrial scrap collection" loading="lazy" /></div>
-                <div class="gallery-item"><img src="images/gallery6.jpg" alt="Metal recycling" loading="lazy" /></div>
-                <div class="gallery-item"><img src="images/gallery7.jpg" alt="Scrap yard" loading="lazy" /></div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸 Scrap Collection</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸 Metal Recycling</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸 Copper Scrap</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸 Aluminum Scrap</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸 Steel Scrap</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸 AC Units</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸 Industrial Scrap</div>
+                </div>
             </div>
             <div class="upload-area">
                 <input type="file" id="imageUpload" accept="image/*" multiple />
@@ -662,34 +654,11 @@
             <p>&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. All rights reserved.</p>
             <div class="footer-links">
                 <a href="/">Home</a>
-                <a href="services.html">Services</a>
-                <a href="about.html">About</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="blog.html">Blog</a>
-                <a href="/buyers/">Scrap Buyers</a>
-                <a href="/pickup/">Free Pickup</a>
-                <a href="/copper/">Copper</a>
-                <a href="/aluminum/">Aluminum</a>
-                <a href="/recycle/">Recycling</a>
-                <a href="/industrial/">Industrial</a>
-                <a href="/steel/">Steel</a>
-                <a href="/cars/">Cars</a>
-                <a href="/demolition/">Demolition</a>
-                <a href="/iron/">Iron</a>
-                <a href="/batteries/">Batteries</a>
-                <a href="/ac-units/">AC Units</a>
-                <a href="/prices/copper/">Copper Prices</a>
-                <a href="/prices/aluminum/">Aluminum Prices</a>
-                <a href="/prices/steel/">Steel Prices</a>
-                <a href="/prices/iron/">Iron Prices</a>
-                <a href="/prices/cars/">Car Prices</a>
-                <a href="/areas/al-olaya/">Al Olaya</a>
-                <a href="/areas/al-malaz/">Al Malaz</a>
-                <a href="/areas/al-nakheel/">Al Nakheel</a>
-                <a href="/areas/al-sulaymaniyah/">Al Sulaymaniyah</a>
-                <a href="/areas/al-rawdah/">Al Rawdah</a>
-                <a href="/testimonials/">Testimonials</a>
-                <a href="contact.html">Contact</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
     </footer>
@@ -760,6 +729,13 @@
                 reader.readAsDataURL(file);
             }
         });
+
+        // Close mobile nav when clicking a link
+        document.querySelectorAll('.main-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mainNav').classList.remove('open');
+            });
+        });
     </script>
 </body>
-</html>
+                        </html>
