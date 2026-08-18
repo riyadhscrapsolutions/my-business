@@ -1,29 +1,72 @@
 <!DOCTYPE html>
-<html lang="en-SA">
+<html lang="en">
 <head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta charset="UTF-8">
-    <title>Gallery | Riyadh Scrap Solutions - Scrap Collection Photos in Riyadh</title>
-    <meta name="description" content="See our work! Photos of scrap collection, recycling, building demolition, and more from Riyadh Scrap Solutions.">
-    <meta name="keywords" content="scrap collection photos Riyadh, recycling gallery, building demolition images">
-    <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <title data-translate="galleryPageTitle">Gallery | Riyadh Scrap Solutions - Scrap Collection Photos in Riyadh</title>
+
+    <meta name="google-site-verification" content="-PI_NFbYV132N9wd5SPICJI8T9DVRTFhSfo09gTKvpI" />
+
+    <meta name="description" content="See our work! Photos of scrap collection, recycling, building demolition, and more from Riyadh Scrap Solutions." />
+    <meta name="keywords" content="scrap collection photos Riyadh, recycling gallery, building demolition images" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a7a3a" />
+    <meta name="author" content="Riyadh Scrap Solutions" />
+
     <link rel="canonical" href="https://riyadscrapsolutions.com/gallery.html" />
-    
-    <meta property="og:title" content="Gallery | Riyadh Scrap Solutions">
-    <meta property="og:description" content="Photos of our scrap collection, recycling, and demolition work in Riyadh.">
-    <meta property="og:url" content="https://riyadscrapsolutions.com/gallery.html">
-    <meta property="og:image" content="https://riyadscrapsolutions.com/logo.png">
-    <meta property="og:type" content="website">
-    
+
+    <link rel="alternate" href="https://riyadscrapsolutions.com/gallery.html" hreflang="en" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/gallery.html" hreflang="ar" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/gallery.html" hreflang="fil" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/gallery.html" hreflang="hi" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/gallery.html" hreflang="x-default" />
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    
+
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Inter', sans-serif; background: #f8f6f2; color: #1e1a1a; line-height: 1.7; }
-        a { text-decoration: none; color: inherit; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f6f2;
+            color: #1e1a1a;
+            line-height: 1.7;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: #1a7a3a;
+            color: #fff;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(26, 122, 58, 0.35);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(26, 122, 58, 0.5);
+            background: #136a30;
+        }
 
         header {
             position: fixed;
@@ -34,7 +77,7 @@
             background: rgba(30, 26, 26, 0.96);
             backdrop-filter: blur(12px);
             padding: 14px 0;
-            border-bottom: 1px solid rgba(192, 57, 43, 0.2);
+            border-bottom: 1px solid rgba(26, 122, 58, 0.2);
         }
         .header-flex {
             display: flex;
@@ -42,29 +85,108 @@
             align-items: center;
             flex-wrap: wrap;
         }
-        .logo p { font-size: 0.75rem; opacity: 0.7; color: #b8b0b0; letter-spacing: 2px; font-weight: 600; text-transform: uppercase; }
-        .logo p a { color: #fff; }
-        .main-nav { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
-        .main-nav a { color: rgba(255,255,255,0.7); font-weight: 500; font-size: 0.9rem; transition: 0.3s; padding: 6px 12px; border-radius: 6px; }
-        .main-nav a:hover, .main-nav a.active { color: #fff; background: rgba(192, 57, 43, 0.2); }
-        .header-phone { background: rgba(192, 57, 43, 0.15); border: 1px solid rgba(192, 57, 43, 0.3); padding: 8px 18px; border-radius: 50px; font-weight: 700; font-size: 0.95rem; color: #c0392b; transition: 0.3s; }
-        .header-phone:hover { background: #c0392b; color: #fff; }
-        .header-phone a { color: inherit; }
+        .logo p {
+            font-size: 0.75rem;
+            opacity: 0.7;
+            color: #b8b0b0;
+            letter-spacing: 2px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .logo p a {
+            color: #fff;
+        }
+        .main-nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .main-nav a {
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: 0.3s;
+            padding: 6px 12px;
+            border-radius: 6px;
+        }
+        .main-nav a:hover {
+            color: #fff;
+            background: rgba(26, 122, 58, 0.2);
+        }
+        .main-nav a.active {
+            color: #fff;
+            background: rgba(26, 122, 58, 0.3);
+        }
+        .header-phone {
+            background: rgba(26, 122, 58, 0.15);
+            border: 1px solid rgba(26, 122, 58, 0.3);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #1a7a3a;
+            transition: 0.3s;
+        }
+        .header-phone:hover {
+            background: #1a7a3a;
+            color: #fff;
+        }
+        .header-phone a {
+            color: inherit;
+        }
+
+        .mobile-nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
 
         .page-hero {
             padding: 140px 0 60px;
-            background: linear-gradient(165deg, #1e1a1a 0%, #2d1a1a 40%, #1e1a1a 100%);
+            background: linear-gradient(165deg, #1e1a1a 0%, #0d2818 40%, #1e1a1a 100%);
             text-align: center;
         }
-        .page-hero h1 { font-size: 3.2rem; font-weight: 900; color: #fff; }
-        .page-hero h1 span { color: #c0392b; }
-        .page-hero p { color: rgba(255,255,255,0.6); max-width: 700px; margin: 10px auto 0; font-size: 1.1rem; }
+        .page-hero h1 {
+            font-size: 3.2rem;
+            font-weight: 900;
+            color: #fff;
+        }
+        .page-hero h1 span {
+            color: #1a7a3a;
+        }
+        .page-hero p {
+            color: rgba(255, 255, 255, 0.6);
+            max-width: 700px;
+            margin: 10px auto 0;
+            font-size: 1.1rem;
+        }
 
-        .section-title { text-align: center; font-size: 2.5rem; font-weight: 800; color: #1e1a1a; margin-bottom: 10px; }
-        .section-title span { color: #c0392b; }
-        .section-sub { text-align: center; color: #7a6e6e; max-width: 600px; margin: 0 auto 40px; font-size: 1.05rem; }
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #1e1a1a;
+            margin-bottom: 10px;
+        }
+        .section-title span {
+            color: #1a7a3a;
+        }
+        .section-sub {
+            text-align: center;
+            color: #7a6e6e;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            font-size: 1.05rem;
+        }
 
-        .gallery-section { padding: 60px 0; background: #fff; }
+        .gallery-section {
+            padding: 60px 0;
+            background: #fff;
+        }
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -84,31 +206,30 @@
         }
         .gallery-item:hover {
             transform: scale(1.03);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
         }
         .gallery-item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        .gallery-item .placeholder {
-            color: #aaa;
-            text-align: center;
-            padding: 20px;
-        }
-        .gallery-item .placeholder .icon { font-size: 3.5rem; display: block; margin-bottom: 8px; }
 
         .upload-area {
             background: #fff;
             padding: 45px;
             border-radius: 16px;
             text-align: center;
-            border: 2px dashed #c0392b;
+            border: 2px dashed #1a7a3a;
             margin-top: 40px;
             transition: 0.3s;
         }
-        .upload-area:hover { border-color: #1e1a1a; background: #fdf6f5; }
-        .upload-area input[type="file"] { display: none; }
+        .upload-area:hover {
+            border-color: #1e1a1a;
+            background: #fdf6f5;
+        }
+        .upload-area input[type="file"] {
+            display: none;
+        }
         .upload-label {
             display: inline-block;
             background: #1e1a1a;
@@ -120,8 +241,15 @@
             transition: 0.3s;
             font-size: 1rem;
         }
-        .upload-label:hover { background: #c0392b; transform: translateY(-2px); }
-        .upload-area p { margin-top: 14px; color: #888; font-size: 0.9rem; }
+        .upload-label:hover {
+            background: #1a7a3a;
+            transform: translateY(-2px);
+        }
+        .upload-area p {
+            margin-top: 14px;
+            color: #888;
+            font-size: 0.9rem;
+        }
 
         #imagePreview {
             display: flex;
@@ -135,46 +263,126 @@
             height: 130px;
             object-fit: cover;
             border-radius: 12px;
-            border: 3px solid #c0392b;
+            border: 3px solid #1a7a3a;
         }
 
-        .btn-primary {
-            display: inline-block;
-            background: #c0392b;
+        .cta-section {
+            padding: 60px 0;
+            background: #1e1a1a;
+            text-align: center;
+        }
+        .cta-section h2 {
             color: #fff;
-            padding: 16px 40px;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 1.05rem;
-            transition: 0.3s;
+            font-size: 2.2rem;
         }
-        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(192,57,43,0.4); }
+        .cta-section p {
+            color: rgba(255, 255, 255, 0.6);
+            margin: 10px 0 25px;
+        }
+        .cta-section .btn-primary {
+            background: #1a7a3a;
+            box-shadow: 0 4px 20px rgba(26, 122, 58, 0.4);
+        }
+        .cta-section .btn-primary:hover {
+            background: #136a30;
+        }
 
-        .cta-section { padding: 60px 0; background: #1e1a1a; text-align: center; }
-        .cta-section h2 { color: #fff; font-size: 2.2rem; }
-        .cta-section p { color: rgba(255,255,255,0.6); margin: 10px 0 25px; }
+        footer {
+            background: #100a0a;
+            color: rgba(255, 255, 255, 0.5);
+            padding: 35px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #1a7a3a;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-links {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+        }
+        .footer-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.85rem;
+        }
 
-        footer { background: #100a0a; color: rgba(255,255,255,0.5); padding: 35px 0; text-align: center; font-size: 0.9rem; }
-        footer a { color: #c0392b; }
-        .footer-links { margin-top: 10px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 20px; }
+        .skip-link {
+            position: absolute;
+            top: -9999px;
+            left: 0;
+            background: #1a7a3a;
+            color: #fff;
+            padding: 12px 24px;
+            z-index: 9999;
+            font-weight: 600;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
 
-        .mobile-nav-toggle { display: none; background: none; border: none; color: #fff; font-size: 1.8rem; cursor: pointer; }
         @media (max-width: 768px) {
-            .mobile-nav-toggle { display: block; }
-            .main-nav { display: none; flex-direction: column; width: 100%; background: #1e1a1a; padding: 20px; border-radius: 12px; margin-top: 10px; }
-            .main-nav.open { display: flex; }
-            .main-nav a { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
-            .header-flex { flex-direction: column; gap: 10px; }
-            .page-hero h1 { font-size: 2rem; }
-            .section-title { font-size: 1.8rem; }
-            .gallery-grid { grid-template-columns: 1fr 1fr; }
+            .mobile-nav-toggle {
+                display: block;
+            }
+            .main-nav {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background: #1e1a1a;
+                padding: 20px;
+                border-radius: 12px;
+                margin-top: 10px;
+            }
+            .main-nav.open {
+                display: flex;
+            }
+            .main-nav a {
+                padding: 10px 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            }
+            .header-flex {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .page-hero h1 {
+                font-size: 2rem;
+            }
+            .section-title {
+                font-size: 1.8rem;
+            }
+            .gallery-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .footer-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
         }
         @media (max-width: 480px) {
-            .gallery-grid { grid-template-columns: 1fr; }
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            .page-hero h1 {
+                font-size: 1.6rem;
+            }
         }
     </style>
 </head>
 <body>
+
+    <a href="#main-content" class="skip-link" data-translate="skipLink">Skip to content</a>
 
     <header>
         <div class="container header-flex">
@@ -183,12 +391,19 @@
             </div>
             <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
             <nav class="main-nav" id="mainNav">
-                <a href="/">Home</a>
-                <a href="services.html">Services</a>
-                <a href="about.html">About</a>
-                <a href="gallery.html" class="active">Gallery</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
+                <a href="/" data-translate="navHome">Home</a>
+                <a href="services.html" data-translate="navServices">Services</a>
+                <a href="about.html" data-translate="navAbout">About</a>
+                <a href="gallery.html" class="active" data-translate="navGallery">Gallery</a>
+                <a href="blog.html" data-translate="navBlog">Blog</a>
+                <a href="scrap-in-riyadh.html" data-translate="navScrap">Scrap in Riyadh</a>
+                <a href="contact.html" data-translate="navContact">Contact</a>
+                <div style="display:flex; gap:6px; align-items:center; margin-left:10px; border-left:1px solid rgba(255,255,255,0.2); padding-left:12px;" class="lang-switcher">
+                    <a href="#" data-lang="en" onclick="setLanguage('en'); return false;" style="font-weight:700; color:#1a7a3a;">🇬🇧 EN</a>
+                    <a href="#" data-lang="ar" onclick="setLanguage('ar'); return false;" style="color:rgba(255,255,255,0.7);">🇸🇦 AR</a>
+                    <a href="#" data-lang="fil" onclick="setLanguage('fil'); return false;" style="color:rgba(255,255,255,0.7);">🇵🇭 FIL</a>
+                    <a href="#" data-lang="hi" onclick="setLanguage('hi'); return false;" style="color:rgba(255,255,255,0.7);">🇮🇳 HI</a>
+                </div>
             </nav>
             <div class="header-phone">
                 📞 <a href="tel:+966574712106">+966 57 471 2106</a>
@@ -196,91 +411,154 @@
         </div>
     </header>
 
-    <section class="page-hero">
-        <div class="container">
-            <h1>Our <span>Gallery</span></h1>
-            <p>See our work across Riyadh — scrap collection, recycling, and demolition.</p>
-        </div>
-    </section>
-
-    <section class="gallery-section">
-        <div class="container">
-            <h2 class="section-title">Photo <span>Gallery</span></h2>
-            <p class="section-sub">Real photos of our scrap collection and recycling work across Riyadh.</p>
-
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="images/gallery1.jpg" alt="Copper scrap collection in Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery2.jpg" alt="Aluminum scrap collection Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery3.jpg" alt="Steel scrap pickup Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery4.jpg" alt="AC unit scrap buyer Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery5.jpg" alt="Industrial scrap collection Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery6.jpg" alt="Metal recycling Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery7.jpg" alt="Scrap yard Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/gallery8.jpg" alt="Building demolition scrap removal Riyadh">
-                </div>
-                
-                <!-- ✅ NEW IMAGES ADDED BELOW -->
-                <div class="gallery-item">
-                    <img src="images/copper-scrap.jpg" alt="Copper scrap collection in Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/aluminum-scrap.jpg" alt="Aluminum scrap collection Riyadh">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/pickup-scrap.jpg" alt="Free scrap pickup in Riyadh">
-                </div>
+    <main id="main-content">
+        <section class="page-hero">
+            <div class="container">
+                <h1 data-translate="galleryHeroTitle">Our <span>Gallery</span></h1>
+                <p data-translate="galleryHeroSub">See our work across Riyadh — scrap collection, recycling, and demolition.</p>
             </div>
+        </section>
 
-            <div class="upload-area">
-                <input type="file" id="imageUpload" accept="image/*" multiple>
-                <label for="imageUpload" class="upload-label">📤 Upload Your Images</label>
-                <p>Upload images of your scrap for a quick quote</p>
+        <section class="gallery-section">
+            <div class="container">
+                <h2 class="section-title" data-translate="galleryTitle">Photo <span>Gallery</span></h2>
+                <p class="section-sub" data-translate="gallerySub">Real photos of our scrap collection and recycling work across Riyadh.</p>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/gallery1.jpg" alt="Copper scrap collection in Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery2.jpg" alt="Aluminum scrap collection Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery3.jpg" alt="Steel scrap pickup Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery4.jpg" alt="AC unit scrap buyer Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery5.jpg" alt="Industrial scrap collection Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery6.jpg" alt="Metal recycling Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery7.jpg" alt="Scrap yard Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery8.jpg" alt="Building demolition scrap removal Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/copper-scrap.jpg" alt="Copper scrap collection in Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/aluminum-scrap.jpg" alt="Aluminum scrap collection Riyadh">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/pickup-scrap.jpg" alt="Free scrap pickup in Riyadh">
+                    </div>
+                </div>
+
+                <div class="upload-area">
+                    <input type="file" id="imageUpload" accept="image/*" multiple>
+                    <label for="imageUpload" class="upload-label" data-translate="uploadLabel">📤 Upload Your Images</label>
+                    <p data-translate="uploadText">Upload images of your scrap for a quick quote</p>
+                </div>
+                <div id="imagePreview"></div>
             </div>
-            <div id="imagePreview"></div>
-        </div>
-    </section>
+        </section>
 
-    <section class="cta-section">
-        <div class="container">
-            <h2>Have Scrap to <span style="color: #c0392b;">Sell?</span></h2>
-            <p>Upload your images or call us for a free quote.</p>
-            <a href="tel:+966574712106" class="btn-primary">📞 Call Now</a>
-        </div>
-    </section>
+        <section class="cta-section">
+            <div class="container">
+                <h2 data-translate="galleryCTATitle">Have Scrap to <span style="color: #1a7a3a;">Sell?</span></h2>
+                <p data-translate="galleryCTAText">Upload your images or call us for a free quote.</p>
+                <a href="tel:+966574712106" class="btn-primary" data-translate="galleryCTABtn">📞 Call Now</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. All rights reserved.</p>
+            <div class="footer-info">
+                <span data-translate="footerLocation">📍 Sulayman Bin Yaseer, Riyadh</span>
+                <span data-translate="footerHours">🕒 Sat–Thu: 7 AM – 9 PM</span>
+                <span>📧 <a href="mailto:kasharmalik22@gmail.com">kasharmalik22@gmail.com</a></span>
+                <span>📞 <a href="tel:+966574712106">+966 57 471 2106</a></span>
+            </div>
+            <p data-translate="footerCopyright">&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. All rights reserved.</p>
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="services.html">Services</a>
-                <a href="about.html">About</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
+                <a href="/" data-translate="footerLinkHome">Home</a>
+                <a href="services.html" data-translate="footerLinkServices">Services</a>
+                <a href="about.html" data-translate="footerLinkAbout">About</a>
+                <a href="gallery.html" data-translate="footerLinkGallery">Gallery</a>
+                <a href="blog.html" data-translate="footerLinkBlog">Blog</a>
+                <a href="scrap-in-riyadh.html" data-translate="footerLinkScrap">Scrap in Riyadh</a>
+                <a href="contact.html" data-translate="footerLinkContact">Contact</a>
             </div>
         </div>
     </footer>
 
+    <script src="translations.js"></script>
     <script>
+        function getCurrentLanguage() {
+            const savedLang = localStorage.getItem('preferred_language');
+            if (savedLang && ['en', 'ar', 'fil', 'hi'].includes(savedLang)) return savedLang;
+            const browserLang = navigator.language || navigator.languages[0];
+            if (browserLang.startsWith('ar')) return 'ar';
+            if (browserLang.startsWith('fil') || browserLang.startsWith('tl')) return 'fil';
+            if (browserLang.startsWith('hi')) return 'hi';
+            return 'en';
+        }
+
+        function setLanguage(lang) {
+            if (!['en', 'ar', 'fil', 'hi'].includes(lang)) return;
+            localStorage.setItem('preferred_language', lang);
+            document.documentElement.lang = lang;
+            if (lang === 'ar') {
+                document.documentElement.dir = 'rtl';
+                document.querySelector('body').style.textAlign = 'right';
+            } else {
+                document.documentElement.dir = 'ltr';
+                document.querySelector('body').style.textAlign = 'left';
+            }
+            if (typeof translations !== 'undefined' && translations[lang]) {
+                applyTranslations(translations[lang]);
+            }
+            updateLanguageSwitcher(lang);
+        }
+
+        function applyTranslations(t) {
+            document.querySelectorAll('[data-translate]').forEach(el => {
+                const key = el.dataset.translate;
+                if (t[key] !== undefined) {
+                    el.innerHTML = t[key];
+                }
+            });
+        }
+
+        function updateLanguageSwitcher(currentLang) {
+            document.querySelectorAll('.lang-switcher a').forEach(link => {
+                const lang = link.dataset.lang;
+                link.style.fontWeight = lang === currentLang ? '700' : '400';
+                link.style.color = lang === currentLang ? '#1a7a3a' : 'rgba(255,255,255,0.7)';
+            });
+        }
+
         function toggleNav() {
             document.getElementById('mainNav').classList.toggle('open');
         }
+
+        document.querySelectorAll('.main-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mainNav').classList.remove('open');
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentLang = getCurrentLanguage();
+            setLanguage(currentLang);
+        });
 
         document.getElementById('imageUpload').addEventListener('change', function(event) {
             const preview = document.getElementById('imagePreview');
