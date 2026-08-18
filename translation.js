@@ -2,11 +2,11 @@
 
 const translations = {
     en: {
-        // Page Title
+        // ===== PAGE TITLE =====
         pageTitle: "Riyadh Scrap Solutions | Best Scrap Buyer in Riyadh | Free Pickup & Cash",
         skipLink: "Skip to content",
         
-        // Navigation
+        // ===== NAVIGATION =====
         navHome: "Home",
         navServices: "Services",
         navAbout: "About",
@@ -14,19 +14,20 @@ const translations = {
         navReviews: "Reviews",
         navContact: "Contact",
         navScrap: "Scrap in Riyadh",
+        navBlog: "Blog",
         
-        // Hero Section
+        // ===== HERO SECTION =====
         heroBadge: "📍 Serving All Areas of Riyadh",
         heroTitle: "Riyadh Scrap Solutions – <span>Professional</span> Scrap Buyer in Riyadh",
         heroSubtitle: 'We buy all types of scrap — copper, aluminum, steel, cars, and more. <strong>Free pickup</strong> &amp; instant cash payment.',
         heroBtnCall: "📞 Call for Quote",
         heroBtnWhatsApp: "💬 WhatsApp Us",
         
-        // Breadcrumb
+        // ===== BREADCRUMB =====
         breadcrumbHome: "Home",
         breadcrumbCurrent: "Scrap Buyer Riyadh",
         
-        // About Section
+        // ===== ABOUT SECTION (HOME PAGE) =====
         aboutTitle: "Welcome to <span>Riyadh Scrap Solutions</span>",
         aboutSub: "Your trusted scrap partner across the Kingdom.",
         aboutHeading: "Who We Are",
@@ -45,7 +46,7 @@ const translations = {
         valuable5: "Other reusable materials",
         servingText: '📍 Serving <span>all areas</span> across Riyadh<br /> For quick service, contact us via <strong>Call</strong> or <strong>WhatsApp</strong>',
         
-        // Services Section
+        // ===== SERVICES SECTION (HOME PAGE) =====
         servicesTitle: "Our <span>Services</span>",
         servicesSub: "Professional, reliable, and fast scrap solutions.",
         service1Title: "Instant Cash",
@@ -57,17 +58,17 @@ const translations = {
         service4Title: "Rubbish Removal",
         service4Desc: "Free clearing and removal of building waste.",
         
-        // Items Section
+        // ===== ITEMS SECTION =====
         itemsTitle: "Items We <span>Buy</span>",
         itemsSub: "We accept a wide range of scrap materials.",
         
-        // Gallery Section
+        // ===== GALLERY SECTION (HOME PAGE) =====
         galleryTitle: "Our <span>Gallery</span>",
         gallerySub: "Some of our recent scrap collection work across Riyadh.",
         uploadLabel: "📤 Upload Your Images",
         uploadText: "Upload images of your scrap for a quick quote",
         
-        // Reviews Section
+        // ===== REVIEWS SECTION =====
         reviewsTitle: "What Our <span>Customers Say</span>",
         reviewsSub: "Real reviews from real customers in Riyadh.",
         review1Text: '"Excellent service! They came to my location within an hour, gave me a fair price for my old car, and paid cash immediately. Highly recommend!"',
@@ -90,7 +91,7 @@ const translations = {
         reviewSubmit: "📤 Submit Review",
         reviewSuccess: "✅ Thank you for your review! It helps others find us.",
         
-        // Why Choose Us
+        // ===== WHY CHOOSE US =====
         whyTitle: "Why <span>Choose Us</span>",
         whySub: "Reliable, transparent, and always fair.",
         why1Title: "Best Prices",
@@ -102,12 +103,12 @@ const translations = {
         why4Title: "Eco-Friendly",
         why4Desc: "Responsible recycling for a greener future.",
         
-        // Areas Section
+        // ===== AREAS SECTION =====
         areasTitle: "Areas We <span>Serve in Riyadh</span>",
         areasSub: "We provide fast scrap pickup services across all neighborhoods in Riyadh.",
         areasMore: "📍 <strong style='color: #1a7a3a;'>+ Many More Areas!</strong> Call us for pickup anywhere in Riyadh.",
         
-        // FAQ Section
+        // ===== FAQ SECTION =====
         faqTitle: "Frequently Asked <span>Questions</span>",
         faqSub: "Find answers to common questions about our scrap buying services.",
         faq1Q: "🔴 What types of scrap do you buy?",
@@ -123,7 +124,7 @@ const translations = {
         faq6Q: "📞 How can I get a quote?",
         faq6A: "Call us at <strong style='color: #1a7a3a;'>+966 57 471 2106</strong> or use our contact form. We'll give you a free quote within minutes!",
         
-        // Blog Section
+        // ===== BLOG SECTION (HOME PAGE) =====
         blogTitle: "Why Choose <span>Riyadh Scrap Solutions</span>",
         blogSub: "We are your trusted partner for scrap recycling in Riyadh.",
         blog1Title: "Environmental Benefits",
@@ -135,7 +136,7 @@ const translations = {
         blogCTA: "💬 <strong>Ready to sell your scrap?</strong> Contact us today for a free quote!",
         blogCTABtn: "📞 Call Now",
         
-        // Form Section
+        // ===== FORM SECTION (HOME PAGE) =====
         formTitle: "Get a <span>Free Quote</span>",
         formSub: "Fill in the form and we'll get back to you within 30 minutes.",
         formName: "Full Name <span class='required'>*</span>",
@@ -169,18 +170,18 @@ const translations = {
         formSubmit: "📩 Send Inquiry",
         formSuccess: "✅ Thank you! We'll contact you within 30 minutes.",
         
-        // Social Section
+        // ===== SOCIAL SECTION =====
         socialTitle: "Connect With <span style='color: #e8a838;'>Us</span>",
         socialSub: "Follow us on social media for updates and offers.",
         
-        // Contact Section
+        // ===== CONTACT SECTION (HOME PAGE) =====
         contactTitle: "📞 Call or <span>Visit</span> Today",
         contactSub: "Serving all areas across Riyadh. Get a free quote in minutes.",
         contactBtn: "📞 Call Now: +966 57 471 2106",
         contactLocation: "📍 Sulayman Bin Yaseer, Riyadh",
         contactHours: "🕒 Sat–Thu: 7 AM – 9 PM | Fri Closed",
         
-        // Footer
+        // ===== FOOTER =====
         footerLocation: "📍 Sulayman Bin Yaseer, Riyadh",
         footerHours: "🕒 Sat–Thu: 7 AM – 9 PM",
         footerCopyright: "&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. All rights reserved.",
@@ -191,8 +192,165 @@ const translations = {
         footerLinkReviews: "Reviews",
         footerLinkContact: "Contact",
         footerLinkScrap: "Scrap in Riyadh",
+        footerLinkBlog: "Blog",
         
-        // ===== SCRAP PAGE TRANSLATIONS =====
+        // ============================================================
+        // ===== ABOUT PAGE TRANSLATIONS =====
+        // ============================================================
+        aboutPageTitle: "About Us | Riyadh Scrap Solutions - Trusted Scrap Buyer in Riyadh",
+        aboutHeroTitle: "About <span>Us</span>",
+        aboutHeroSub: "Your trusted scrap partner in Riyadh since 2026.",
+        aboutWhoHeading: "Who We Are",
+        aboutWhoText1: "Riyadh Scrap Solutions is a locally owned and operated scrap buying and recycling company serving all areas of Riyadh and surrounding regions.",
+        aboutWhoText2: "We specialize in buying all types of scrap materials — from household metals to industrial equipment — with a commitment to fair pricing, professional service, and environmental responsibility.",
+        aboutMissionHeading: "Our Mission",
+        aboutMissionText: "To provide the most reliable, transparent, and eco-friendly scrap buying service in Riyadh, ensuring every customer gets instant cash and exceptional service.",
+        aboutVisionHeading: "Our Vision",
+        aboutVisionText: "To become the leading scrap recycling company in Saudi Arabia, contributing to a greener and more sustainable future.",
+        aboutWhyHeading: "Why Choose Us",
+        aboutWhy1: "✅ Professional and reliable service",
+        aboutWhy2: "✅ Instant cash payment",
+        aboutWhy3: "✅ Free pickup anywhere in Riyadh",
+        aboutWhy4: "✅ Fair and transparent pricing",
+        aboutWhy5: "✅ Environmentally responsible recycling",
+        aboutWhy6: "✅ Same-day service",
+        aboutWhy7: "✅ Free building demolition",
+        aboutWhy8: "✅ Free rubbish removal",
+        aboutValuesTitle: "Our <span>Values</span>",
+        aboutValuesSub: "The principles that guide everything we do.",
+        aboutValue1Title: "Integrity",
+        aboutValue1Desc: "We always deal honestly and fairly with every customer.",
+        aboutValue2Title: "Speed",
+        aboutValue2Desc: "Fast pickup and instant cash payment every time.",
+        aboutValue3Title: "Sustainability",
+        aboutValue3Desc: "Committed to eco-friendly recycling practices.",
+        aboutValue4Title: "Trust",
+        aboutValue4Desc: "Building lasting relationships with our customers.",
+        aboutCTATitle: "Work With <span style='color: #1a7a3a;'>Trusted Professionals</span>",
+        aboutCTAText: "Contact us today for a free quote and experience the difference.",
+        aboutCTABtn: "📞 Call Now",
+        
+        // ============================================================
+        // ===== SERVICES PAGE TRANSLATIONS =====
+        // ============================================================
+        servicesPageTitle: "Our Services | Riyadh Scrap Solutions - Professional Scrap Buying in Riyadh",
+        servicesHeroTitle: "Our <span>Services</span>",
+        servicesHeroSub: "Professional, reliable, and fast scrap solutions across Riyadh.",
+        servicesOfferTitle: "What We <span>Offer</span>",
+        servicesOfferSub: "Detailed breakdown of all our professional scrap services.",
+        service1TitleFull: "Instant Cash Payment",
+        service1DescFull: "Get paid immediately upon completion of pickup. No waiting, no delays.",
+        service1Li1: "Same-day payment",
+        service1Li2: "Fair & transparent weighing",
+        service1Li3: "No hidden fees",
+        service2TitleFull: "Free Scrap Pickup",
+        service2DescFull: "We come to your location anywhere in Riyadh at no cost.",
+        service2Li1: "Fast response time (within 1-2 hours)",
+        service2Li2: "Professional loading and handling",
+        service2Li3: "Available for residential, commercial, and industrial",
+        service3TitleFull: "Building Demolition",
+        service3DescFull: "Free demolition and scrap removal for properties and buildings.",
+        service3Li1: "Steel structures removal",
+        service3Li2: "Steel doors and windows",
+        service3Li3: "AC units and compressors",
+        service3Li4: "Electrical cables and wiring",
+        service4TitleFull: "Rubbish Removal",
+        service4DescFull: "Free clearing and removal of building waste and rubbish.",
+        service4Li1: "Post-demolition cleanup",
+        service4Li2: "Construction waste removal",
+        service4Li3: "Warehouse clearing",
+        service5TitleFull: "Metal Recycling",
+        service5DescFull: "Environmentally responsible recycling of all types of scrap metal.",
+        service5Li1: "Copper recycling",
+        service5Li2: "Aluminum recycling",
+        service5Li3: "Steel and iron recycling",
+        service5Li4: "Mixed metal recycling",
+        service6TitleFull: "Industrial Scrap Services",
+        service6DescFull: "Specialized services for factories, warehouses, and industrial sites.",
+        service6Li1: "Heavy machinery removal",
+        service6Li2: "Industrial metal recycling",
+        service6Li3: "Equipment decommissioning",
+        pricingTitle: "Estimated <span>Pricing</span>",
+        pricingSub: "Prices vary based on quantity, quality, and market rates. Call for a free quote.",
+        price1Title: "Copper",
+        price2Title: "Aluminum",
+        price3Title: "Steel",
+        price4Title: "Iron",
+        price5Title: "Batteries",
+        price6Title: "AC Units",
+        pricingNote: "📞 Call for exact pricing on your specific scrap.",
+        servicesCTATitle: "Ready to <span style='color: #1a7a3a;'>Sell Your Scrap?</span>",
+        servicesCTAText: "Contact us today for a free quote and same-day pickup.",
+        servicesCTABtn: "📞 Call Now",
+        
+        // ============================================================
+        // ===== CONTACT PAGE TRANSLATIONS =====
+        // ============================================================
+        contactPageTitle: "Contact Us | Riyadh Scrap Solutions - Get a Free Quote",
+        contactHeroTitle: "Contact <span>Us</span>",
+        contactHeroSub: "Get a free quote in minutes. Call, WhatsApp, or fill out the form.",
+        contactInfoTitle: "Get In <span style='color: #1a7a3a;'>Touch</span>",
+        contactInfoText: "We're here to help with all your scrap needs. Contact us for a free quote, same-day pickup, or any questions.",
+        contactPhoneLabel: "Phone",
+        contactWhatsAppLabel: "WhatsApp",
+        contactWhatsAppLink: "+966 57 471 2106",
+        contactEmailLabel: "Email",
+        contactLocationLabel: "Location",
+        contactLocationText: "Sulayman Bin Yaseer, Riyadh",
+        contactHoursLabel: "Working Hours",
+        contactHoursText: "Sat–Thu: 7 AM – 9 PM | Fri Closed",
+        contactFormTitle: "Send a <span style='color: #1a7a3a;'>Message</span>",
+        contactFormSub: "We'll get back to you within 30 minutes.",
+        contactCTATitle: "📞 Call or <span style='color: #1a7a3a;'>Visit</span> Today",
+        contactCTAText: "Serving all areas across Riyadh. Get a free quote in minutes.",
+        contactCTABtn: "📞 Call Now: +966 57 471 2106",
+        
+        // ============================================================
+        // ===== GALLERY PAGE TRANSLATIONS =====
+        // ============================================================
+        galleryPageTitle: "Gallery | Riyadh Scrap Solutions - Scrap Collection Photos in Riyadh",
+        galleryHeroTitle: "Our <span>Gallery</span>",
+        galleryHeroSub: "See our work across Riyadh — scrap collection, recycling, and demolition.",
+        galleryTitleFull: "Photo <span>Gallery</span>",
+        gallerySubFull: "Real photos of our scrap collection and recycling work across Riyadh.",
+        galleryCTATitle: "Have Scrap to <span style='color: #1a7a3a;'>Sell?</span>",
+        galleryCTAText: "Upload your images or call us for a free quote.",
+        galleryCTABtn: "📞 Call Now",
+        
+        // ============================================================
+        // ===== BLOG PAGE TRANSLATIONS =====
+        // ============================================================
+        blogPageTitle: "Blog | Riyadh Scrap Solutions - Tips & News on Scrap Recycling",
+        blogHeroTitle: "Our <span>Blog</span>",
+        blogHeroSub: "Tips, guides, and news about scrap recycling in Riyadh.",
+        blogTitleFull: "Latest <span>Posts</span>",
+        blogSubFull: "Read our latest articles for tips and insights.",
+        blog1Date: "July 19, 2026",
+        blog1TitleFull: "Top 5 Benefits of Recycling Scrap Metal",
+        blog1DescFull: "Discover why recycling scrap metal is good for you and the environment. Learn about the environmental and economic benefits.",
+        blog2Date: "July 18, 2026",
+        blog2TitleFull: "How to Get the Best Price for Your Scrap",
+        blog2DescFull: "Tips to maximize your earnings when selling scrap metal. Learn how to separate metals and choose the right buyer.",
+        blog3Date: "July 17, 2026",
+        blog3TitleFull: "Complete Guide to Building Demolition in Riyadh",
+        blog3DescFull: "Everything you need to know about building demolition and scrap removal in Riyadh. Free service available.",
+        blog4Date: "July 16, 2026",
+        blog4TitleFull: "Understanding Scrap Metal Prices in Riyadh",
+        blog4DescFull: "Learn about current scrap metal prices in Riyadh. Copper, aluminum, steel, and more — updated regularly.",
+        blog5Date: "July 15, 2026",
+        blog5TitleFull: "Why Choose Professional Scrap Buyers?",
+        blog5DescFull: "Benefits of working with professional scrap buyers like Riyadh Scrap Solutions. Fair prices, free pickup, and more.",
+        blog6Date: "July 14, 2026",
+        blog6TitleFull: "Eco-Friendly Scrap Recycling Tips",
+        blog6DescFull: "Learn how to recycle scrap responsibly and contribute to a greener Saudi Arabia. Simple tips for everyone.",
+        blogReadMore: "Read More →",
+        blogCTATitleFull: "Have Scrap to <span style='color: #1a7a3a;'>Sell?</span>",
+        blogCTATextFull: "Contact us for a free quote and same-day pickup.",
+        blogCTABtnFull: "📞 Call Now",
+        
+        // ============================================================
+        // ===== SCRAP IN RIYADH PAGE TRANSLATIONS =====
+        // ============================================================
         scrapPageTitle: "Scrap in Riyadh | Best Scrap Buyer in Riyadh | Free Pickup & Cash",
         scrapHeading: "Scrap in <span>Riyadh</span>",
         scrapSubheading: "Your trusted partner for buying and selling all types of scrap materials across Riyadh.",
@@ -219,21 +377,21 @@ const translations = {
         scrapFeature5Desc: "Free demolition and scrap removal services",
         scrapFeature6Title: "Rubbish Removal",
         scrapFeature6Desc: "Free clearing of building waste and debris",
-        scrapAreasTitle: "Areas We <span>Serve in Riyadh</span>",
-        scrapAreasSub: "Providing scrap pickup services across all neighborhoods in Riyadh.",
-        scrapAreasMore: "📍 <strong style='color: #1a7a3a;'>+ Many More Areas!</strong> Call us for pickup anywhere in Riyadh.",
-        scrapCTATitle: "📞 Ready to Sell Your Scrap?",
-        scrapCTAText: "Call us today for a free quote and instant pickup anywhere in Riyadh.",
-        scrapCTABtn: "📞 Call Now: +966 57 471 2106",
+        scrapAreasTitleScrap: "Areas We <span>Serve in Riyadh</span>",
+        scrapAreasSubScrap: "Providing scrap pickup services across all neighborhoods in Riyadh.",
+        scrapAreasMoreScrap: "📍 <strong style='color: #1a7a3a;'>+ Many More Areas!</strong> Call us for pickup anywhere in Riyadh.",
+        scrapCTATitleScrap: "📞 Ready to Sell Your Scrap?",
+        scrapCTATextScrap: "Call us today for a free quote and instant pickup anywhere in Riyadh.",
+        scrapCTABtnScrap: "📞 Call Now: +966 57 471 2106",
         scrapWhatsApp: "💬 Or WhatsApp Us"
     },
     
     ar: {
-        // Page Title
+        // ===== PAGE TITLE =====
         pageTitle: "حلول الخردة الرياض | أفضل مشتري خردة في الرياض | نقل مجاني ودفع نقدي",
         skipLink: "انتقل إلى المحتوى",
         
-        // Navigation
+        // ===== NAVIGATION =====
         navHome: "الرئيسية",
         navServices: "خدماتنا",
         navAbout: "من نحن",
@@ -241,19 +399,20 @@ const translations = {
         navReviews: "آراء العملاء",
         navContact: "اتصل بنا",
         navScrap: "الخردة في الرياض",
+        navBlog: "المدونة",
         
-        // Hero Section
+        // ===== HERO SECTION =====
         heroBadge: "📍 نخدم جميع مناطق الرياض",
         heroTitle: "حلول الخردة الرياض – <span>مشتري</span> خردة محترف في الرياض",
         heroSubtitle: 'نشتري جميع أنواع الخردة — النحاس، الألومنيوم، الحديد، السيارات، والمزيد. <strong>نقل مجاني</strong> ودفع نقدي فوري.',
         heroBtnCall: "📞 اتصل للحصول على عرض سعر",
         heroBtnWhatsApp: "💬 راسلنا على واتساب",
         
-        // Breadcrumb
+        // ===== BREADCRUMB =====
         breadcrumbHome: "الرئيسية",
         breadcrumbCurrent: "مشتري خردة الرياض",
         
-        // About Section
+        // ===== ABOUT SECTION (HOME PAGE) =====
         aboutTitle: "مرحباً بكم في <span>حلول الخردة الرياض</span>",
         aboutSub: "شريككم الموثوق للخردة في جميع أنحاء المملكة.",
         aboutHeading: "من نحن",
@@ -272,7 +431,7 @@ const translations = {
         valuable5: "مواد قابلة لإعادة الاستخدام",
         servingText: '📍 نخدم <span>جميع المناطق</span> في الرياض<br /> للخدمة السريعة، اتصل بنا عبر <strong>الاتصال</strong> أو <strong>واتساب</strong>',
         
-        // Services Section
+        // ===== SERVICES SECTION (HOME PAGE) =====
         servicesTitle: "خدماتنا",
         servicesSub: "حلول خردة احترافية وموثوقة وسريعة.",
         service1Title: "دفع نقدي فوري",
@@ -284,17 +443,17 @@ const translations = {
         service4Title: "إزالة الأنقاض",
         service4Desc: "تنظيف مجاني وإزالة نفايات المباني.",
         
-        // Items Section
+        // ===== ITEMS SECTION =====
         itemsTitle: "المواد التي <span>نشتريها</span>",
         itemsSub: "نقبل مجموعة واسعة من مواد الخردة.",
         
-        // Gallery Section
+        // ===== GALLERY SECTION (HOME PAGE) =====
         galleryTitle: "معرضنا",
         gallerySub: "بعض من أعمالنا الأخيرة في جمع الخردة في جميع أنحاء الرياض.",
         uploadLabel: "📤 تحميل صورك",
         uploadText: "قم بتحميل صور الخردة الخاصة بك للحصول على عرض سعر سريع",
         
-        // Reviews Section
+        // ===== REVIEWS SECTION =====
         reviewsTitle: "ماذا يقول <span>عملاؤنا</span>",
         reviewsSub: "آراء حقيقية من عملاء حقيقيين في الرياض.",
         review1Text: '"خدمة ممتازة! جاؤوا إلى موقعي خلال ساعة، أعطوني سعراً عادلاً لسيارتي القديمة، ودفعوا نقداً فوراً. أنصح بهم بشدة!"',
@@ -317,7 +476,7 @@ const translations = {
         reviewSubmit: "📤 إرسال المراجعة",
         reviewSuccess: "✅ شكراً لك على مراجعتك! إنها تساعد الآخرين في العثور علينا.",
         
-        // Why Choose Us
+        // ===== WHY CHOOSE US =====
         whyTitle: "لماذا <span>تختارنا</span>",
         whySub: "موثوقون، شفافون، ودائماً عادلون.",
         why1Title: "أفضل الأسعار",
@@ -329,12 +488,12 @@ const translations = {
         why4Title: "صديق للبيئة",
         why4Desc: "إعادة تدوير مسؤولة لمستقبل أكثر اخضراراً.",
         
-        // Areas Section
+        // ===== AREAS SECTION =====
         areasTitle: "المناطق التي <span>نخدمها في الرياض</span>",
         areasSub: "نقدم خدمات جمع الخردة السريعة في جميع أحياء الرياض.",
         areasMore: "📍 <strong style='color: #1a7a3a;'>+ المزيد من المناطق!</strong> اتصل بنا للنقل في أي مكان في الرياض.",
         
-        // FAQ Section
+        // ===== FAQ SECTION =====
         faqTitle: "الأسئلة الشائعة",
         faqSub: "ابحث عن إجابات للأسئلة الشائعة حول خدمات شراء الخردة.",
         faq1Q: "🔴 ما هي أنواع الخردة التي تشترونها؟",
@@ -350,7 +509,7 @@ const translations = {
         faq6Q: "📞 كيف يمكنني الحصول على عرض سعر؟",
         faq6A: "اتصل بنا على <strong style='color: #1a7a3a;'>+966 57 471 2106</strong> أو استخدم نموذج الاتصال الخاص بنا. سنقدم لك عرض سعر مجاني في غضون دقائق!",
         
-        // Blog Section
+        // ===== BLOG SECTION (HOME PAGE) =====
         blogTitle: "لماذا تختار <span>حلول الخردة الرياض</span>",
         blogSub: "نحن شريكك الموثوق لإعادة تدوير الخردة في الرياض.",
         blog1Title: "الفوائد البيئية",
@@ -362,7 +521,7 @@ const translations = {
         blogCTA: "💬 <strong>مستعد لبيع خردتك؟</strong> اتصل بنا اليوم للحصول على عرض سعر مجاني!",
         blogCTABtn: "📞 اتصل الآن",
         
-        // Form Section
+        // ===== FORM SECTION (HOME PAGE) =====
         formTitle: "احصل على <span>عرض سعر مجاني</span>",
         formSub: "املأ النموذج وسنعود إليك خلال 30 دقيقة.",
         formName: "الاسم الكامل <span class='required'>*</span>",
@@ -396,18 +555,18 @@ const translations = {
         formSubmit: "📩 إرسال الاستفسار",
         formSuccess: "✅ شكراً لك! سنتصل بك خلال 30 دقيقة.",
         
-        // Social Section
+        // ===== SOCIAL SECTION =====
         socialTitle: "تواصل معنا",
         socialSub: "تابعنا على وسائل التواصل الاجتماعي للحصول على التحديثات والعروض.",
         
-        // Contact Section
+        // ===== CONTACT SECTION (HOME PAGE) =====
         contactTitle: "📞 اتصل أو <span>زرنا</span> اليوم",
         contactSub: "نخدم جميع مناطق الرياض. احصل على عرض سعر مجاني في دقائق.",
         contactBtn: "📞 اتصل الآن: +966 57 471 2106",
         contactLocation: "📍 سليمان بن يسير، الرياض",
         contactHours: "🕒 السبت–الخميس: 7 ص – 9 م | الجمعة مغلق",
         
-        // Footer
+        // ===== FOOTER =====
         footerLocation: "📍 سليمان بن يسير، الرياض",
         footerHours: "🕒 السبت–الخميس: 7 ص – 9 م",
         footerCopyright: "&copy; 2026 <strong>حلول الخردة الرياض</strong>. جميع الحقوق محفوظة.",
@@ -418,8 +577,153 @@ const translations = {
         footerLinkReviews: "آراء العملاء",
         footerLinkContact: "اتصل بنا",
         footerLinkScrap: "الخردة في الرياض",
+        footerLinkBlog: "المدونة",
         
-        // ===== SCRAP PAGE TRANSLATIONS - ARABIC =====
+        // ===== ABOUT PAGE TRANSLATIONS - AR =====
+        aboutPageTitle: "من نحن | حلول الخردة الرياض - مشتري خردة موثوق في الرياض",
+        aboutHeroTitle: "من <span>نحن</span>",
+        aboutHeroSub: "شريكك الموثوق للخردة في الرياض منذ 2026.",
+        aboutWhoHeading: "من نحن",
+        aboutWhoText1: "حلول الخردة الرياض هي شركة محلية مملوكة ومدارة لشراء وإعادة تدوير الخردة تخدم جميع مناطق الرياض والمناطق المحيطة بها.",
+        aboutWhoText2: "نحن متخصصون في شراء جميع أنواع مواد الخردة - من المعادن المنزلية إلى المعدات الصناعية - مع الالتزام بالتسعير العادل والخدمة الاحترافية والمسؤولية البيئية.",
+        aboutMissionHeading: "مهمتنا",
+        aboutMissionText: "تقديم خدمة شراء خردة الأكثر موثوقية وشفافية وصديقة للبيئة في الرياض، مع ضمان حصول كل عميل على دفعة نقدية فورية وخدمة استثنائية.",
+        aboutVisionHeading: "رؤيتنا",
+        aboutVisionText: "أن نصبح الشركة الرائدة في إعادة تدوير الخردة في المملكة العربية السعودية، والمساهمة في مستقبل أكثر اخضراراً واستدامة.",
+        aboutWhyHeading: "لماذا تختارنا",
+        aboutWhy1: "✅ خدمة احترافية وموثوقة",
+        aboutWhy2: "✅ دفع نقدي فوري",
+        aboutWhy3: "✅ نقل مجاني في أي مكان في الرياض",
+        aboutWhy4: "✅ تسعير عادل وشفاف",
+        aboutWhy5: "✅ إعادة تدوير مسؤولة بيئياً",
+        aboutWhy6: "✅ خدمة نفس اليوم",
+        aboutWhy7: "✅ هدم مباني مجاني",
+        aboutWhy8: "✅ إزالة أنقاض مجانية",
+        aboutValuesTitle: "قيمنا",
+        aboutValuesSub: "المبادئ التي توجه كل ما نقوم به.",
+        aboutValue1Title: "النزاهة",
+        aboutValue1Desc: "نتعامل دائماً بأمانة وعدل مع كل عميل.",
+        aboutValue2Title: "السرعة",
+        aboutValue2Desc: "نقل سريع ودفع نقدي فوري في كل مرة.",
+        aboutValue3Title: "الاستدامة",
+        aboutValue3Desc: "ملتزمون بممارسات إعادة التدوير الصديقة للبيئة.",
+        aboutValue4Title: "الثقة",
+        aboutValue4Desc: "بناء علاقات دائمة مع عملائنا.",
+        aboutCTATitle: "اعمل مع <span style='color: #1a7a3a;'>محترفين موثوقين</span>",
+        aboutCTAText: "اتصل بنا اليوم للحصول على عرض سعر مجاني وجرب الفرق.",
+        aboutCTABtn: "📞 اتصل الآن",
+        
+        // ===== SERVICES PAGE TRANSLATIONS - AR =====
+        servicesPageTitle: "خدماتنا | حلول الخردة الرياض - شراء خردة احترافي في الرياض",
+        servicesHeroTitle: "خدماتنا",
+        servicesHeroSub: "حلول خردة احترافية وموثوقة وسريعة في جميع أنحاء الرياض.",
+        servicesOfferTitle: "ما <span>نقدمه</span>",
+        servicesOfferSub: "تفصيل كامل لجميع خدمات الخردة الاحترافية لدينا.",
+        service1TitleFull: "دفع نقدي فوري",
+        service1DescFull: "احصل على الدفع فوراً عند الانتهاء من النقل. لا انتظار، لا تأخير.",
+        service1Li1: "دفع نفس اليوم",
+        service1Li2: "وزن عادل وشفاف",
+        service1Li3: "لا توجد رسوم خفية",
+        service2TitleFull: "نقل خردة مجاني",
+        service2DescFull: "نأتي إلى موقعك في أي مكان في الرياض دون أي تكلفة.",
+        service2Li1: "وقت استجابة سريع (خلال 1-2 ساعات)",
+        service2Li2: "تحميل ومعالجة احترافية",
+        service2Li3: "متاح للسكني والتجاري والصناعي",
+        service3TitleFull: "هدم المباني",
+        service3DescFull: "هدم مجاني وإزالة الخردة للممتلكات والمباني.",
+        service3Li1: "إزالة الهياكل الحديدية",
+        service3Li2: "الأبواب والنوافذ الحديدية",
+        service3Li3: "وحدات التكييف والضواغط",
+        service3Li4: "الكابلات الكهربائية والأسلاك",
+        service4TitleFull: "إزالة الأنقاض",
+        service4DescFull: "تنظيف مجاني وإزالة نفايات المباني والأنقاض.",
+        service4Li1: "تنظيف ما بعد الهدم",
+        service4Li2: "إزالة نفايات البناء",
+        service4Li3: "تنظيف المستودعات",
+        service5TitleFull: "إعادة تدوير المعادن",
+        service5DescFull: "إعادة تدوير مسؤولة بيئياً لجميع أنواع الخردة المعدنية.",
+        service5Li1: "إعادة تدوير النحاس",
+        service5Li2: "إعادة تدوير الألومنيوم",
+        service5Li3: "إعادة تدوير الحديد والصلب",
+        service5Li4: "إعادة تدوير المعادن المختلطة",
+        service6TitleFull: "خدمات الخردة الصناعية",
+        service6DescFull: "خدمات متخصصة للمصانع والمستودعات والمواقع الصناعية.",
+        service6Li1: "إزالة الآلات الثقيلة",
+        service6Li2: "إعادة تدوير المعادن الصناعية",
+        service6Li3: "إيقاف تشغيل المعدات",
+        pricingTitle: "أسعار <span>تقديرية</span>",
+        pricingSub: "تختلف الأسعار حسب الكمية والجودة وأسعار السوق. اتصل للحصول على عرض سعر مجاني.",
+        price1Title: "نحاس",
+        price2Title: "ألومنيوم",
+        price3Title: "صلب",
+        price4Title: "حديد",
+        price5Title: "بطاريات",
+        price6Title: "وحدات تكييف",
+        pricingNote: "📞 اتصل للحصول على تسعير دقيق للخردة الخاصة بك.",
+        servicesCTATitle: "مستعد <span style='color: #1a7a3a;'>لبيع خردتك؟</span>",
+        servicesCTAText: "اتصل بنا اليوم للحصول على عرض سعر مجاني ونقل في نفس اليوم.",
+        servicesCTABtn: "📞 اتصل الآن",
+        
+        // ===== CONTACT PAGE TRANSLATIONS - AR =====
+        contactPageTitle: "اتصل بنا | حلول الخردة الرياض - احصل على عرض سعر مجاني",
+        contactHeroTitle: "اتصل <span>بنا</span>",
+        contactHeroSub: "احصل على عرض سعر مجاني في دقائق. اتصل، واتساب، أو املأ النموذج.",
+        contactInfoTitle: "تواصل <span style='color: #1a7a3a;'>معنا</span>",
+        contactInfoText: "نحن هنا لمساعدتك في جميع احتياجاتك من الخردة. اتصل بنا للحصول على عرض سعر مجاني، نقل في نفس اليوم، أو أي استفسارات.",
+        contactPhoneLabel: "الهاتف",
+        contactWhatsAppLabel: "واتساب",
+        contactWhatsAppLink: "+966 57 471 2106",
+        contactEmailLabel: "البريد الإلكتروني",
+        contactLocationLabel: "الموقع",
+        contactLocationText: "سليمان بن يسير، الرياض",
+        contactHoursLabel: "ساعات العمل",
+        contactHoursText: "السبت–الخميس: 7 ص – 9 م | الجمعة مغلق",
+        contactFormTitle: "أرسل <span style='color: #1a7a3a;'>رسالة</span>",
+        contactFormSub: "سنتواصل معك خلال 30 دقيقة.",
+        contactCTATitle: "📞 اتصل أو <span style='color: #1a7a3a;'>زرنا</span> اليوم",
+        contactCTAText: "نخدم جميع مناطق الرياض. احصل على عرض سعر مجاني في دقائق.",
+        contactCTABtn: "📞 اتصل الآن: +966 57 471 2106",
+        
+        // ===== GALLERY PAGE TRANSLATIONS - AR =====
+        galleryPageTitle: "معرضنا | حلول الخردة الرياض - صور جمع الخردة في الرياض",
+        galleryHeroTitle: "معرضنا",
+        galleryHeroSub: "انظر إلى أعمالنا في جميع أنحاء الرياض — جمع الخردة، إعادة التدوير، والهدم.",
+        galleryTitleFull: "معرض الصور",
+        gallerySubFull: "صور حقيقية لأعمال جمع الخردة وإعادة التدوير في جميع أنحاء الرياض.",
+        galleryCTATitle: "لديك خردة <span style='color: #1a7a3a;'>للبيع؟</span>",
+        galleryCTAText: "قم بتحميل صورك أو اتصل بنا للحصول على عرض سعر مجاني.",
+        galleryCTABtn: "📞 اتصل الآن",
+        
+        // ===== BLOG PAGE TRANSLATIONS - AR =====
+        blogPageTitle: "المدونة | حلول الخردة الرياض - نصائح وأخبار عن إعادة تدوير الخردة",
+        blogHeroTitle: "مدونتنا",
+        blogHeroSub: "نصائح وأدلة وأخبار عن إعادة تدوير الخردة في الرياض.",
+        blogTitleFull: "أحدث <span>المقالات</span>",
+        blogSubFull: "اقرأ أحدث مقالاتنا للحصول على نصائح ورؤى.",
+        blog1Date: "19 يوليو 2026",
+        blog1TitleFull: "أفضل 5 فوائد لإعادة تدوير الخردة المعدنية",
+        blog1DescFull: "اكتشف لماذا إعادة تدوير الخردة المعدنية مفيدة لك وللبيئة. تعرف على الفوائد البيئية والاقتصادية.",
+        blog2Date: "18 يوليو 2026",
+        blog2TitleFull: "كيف تحصل على أفضل سعر لخردتك",
+        blog2DescFull: "نصائح لتعظيم أرباحك عند بيع الخردة المعدنية. تعلم كيفية فصل المعادن واختيار المشتري المناسب.",
+        blog3Date: "17 يوليو 2026",
+        blog3TitleFull: "دليل كامل لهدم المباني في الرياض",
+        blog3DescFull: "كل ما تحتاج معرفته عن هدم المباني وإزالة الخردة في الرياض. خدمة مجانية متاحة.",
+        blog4Date: "16 يوليو 2026",
+        blog4TitleFull: "فهم أسعار الخردة المعدنية في الرياض",
+        blog4DescFull: "تعرف على أسعار الخردة المعدنية الحالية في الرياض. النحاس، الألومنيوم، الحديد، والمزيد — محدثة بانتظام.",
+        blog5Date: "15 يوليو 2026",
+        blog5TitleFull: "لماذا تختار مشتري خردة محترفين؟",
+        blog5DescFull: "فوائد العمل مع مشتري خردة محترفين مثل حلول الخردة الرياض. أسعار عادلة، نقل مجاني، والمزيد.",
+        blog6Date: "14 يوليو 2026",
+        blog6TitleFull: "نصائح لإعادة تدوير الخردة الصديقة للبيئة",
+        blog6DescFull: "تعلم كيفية إعادة تدوير الخردة بمسؤولية والمساهمة في السعودية الأكثر اخضراراً. نصائح بسيطة للجميع.",
+        blogReadMore: "اقرأ المزيد ←",
+        blogCTATitleFull: "لديك خردة <span style='color: #1a7a3a;'>للبيع؟</span>",
+        blogCTATextFull: "اتصل بنا للحصول على عرض سعر مجاني ونقل في نفس اليوم.",
+        blogCTABtnFull: "📞 اتصل الآن",
+        
+        // ===== SCRAP PAGE TRANSLATIONS - AR =====
         scrapPageTitle: "الخردة في الرياض | أفضل مشتري خردة في الرياض | نقل مجاني ودفع نقدي",
         scrapHeading: "الخردة في <span>الرياض</span>",
         scrapSubheading: "شريكك الموثوق لشراء وبيع جميع أنواع مواد الخردة في جميع أنحاء الرياض.",
@@ -446,21 +750,21 @@ const translations = {
         scrapFeature5Desc: "خدمات هدم مجاني وإزالة الخردة",
         scrapFeature6Title: "إزالة الأنقاض",
         scrapFeature6Desc: "تنظيف مجاني لنفايات المباني والحطام",
-        scrapAreasTitle: "المناطق التي <span>نخدمها في الرياض</span>",
-        scrapAreasSub: "نقدم خدمات نقل الخردة في جميع أحياء الرياض.",
-        scrapAreasMore: "📍 <strong style='color: #1a7a3a;'>+ المزيد من المناطق!</strong> اتصل بنا للنقل في أي مكان في الرياض.",
-        scrapCTATitle: "📞 مستعد لبيع خردتك؟",
-        scrapCTAText: "اتصل بنا اليوم للحصول على عرض سعر مجاني ونقل فوري في أي مكان في الرياض.",
-        scrapCTABtn: "📞 اتصل الآن: +966 57 471 2106",
+        scrapAreasTitleScrap: "المناطق التي <span>نخدمها في الرياض</span>",
+        scrapAreasSubScrap: "نقدم خدمات نقل الخردة في جميع أحياء الرياض.",
+        scrapAreasMoreScrap: "📍 <strong style='color: #1a7a3a;'>+ المزيد من المناطق!</strong> اتصل بنا للنقل في أي مكان في الرياض.",
+        scrapCTATitleScrap: "📞 مستعد لبيع خردتك؟",
+        scrapCTATextScrap: "اتصل بنا اليوم للحصول على عرض سعر مجاني ونقل فوري في أي مكان في الرياض.",
+        scrapCTABtnScrap: "📞 اتصل الآن: +966 57 471 2106",
         scrapWhatsApp: "💬 أو راسلنا على واتساب"
     },
     
     fil: {
-        // Page Title
+        // ===== PAGE TITLE =====
         pageTitle: "Riyadh Scrap Solutions | Pinakamahusay na Mamimili ng Scrap sa Riyadh | Libreng Pickup at Cash",
         skipLink: "Laktawan sa nilalaman",
         
-        // Navigation
+        // ===== NAVIGATION =====
         navHome: "Home",
         navServices: "Serbisyo",
         navAbout: "Tungkol",
@@ -468,19 +772,20 @@ const translations = {
         navReviews: "Mga Review",
         navContact: "Makipag-ugnayan",
         navScrap: "Scrap sa Riyadh",
+        navBlog: "Blog",
         
-        // Hero Section
+        // ===== HERO SECTION =====
         heroBadge: "📍 Naglilingkod sa Lahat ng Lugar ng Riyadh",
         heroTitle: "Riyadh Scrap Solutions – <span>Propesyonal</span> na Mamimili ng Scrap sa Riyadh",
         heroSubtitle: 'Bumibili kami ng lahat ng uri ng scrap — tanso, aluminyo, bakal, kotse, at marami pa. <strong>Libreng pickup</strong> at instant cash payment.',
         heroBtnCall: "📞 Tumawag para sa Quote",
         heroBtnWhatsApp: "💬 I-WhatsApp Kami",
         
-        // Breadcrumb
+        // ===== BREADCRUMB =====
         breadcrumbHome: "Home",
         breadcrumbCurrent: "Mamimili ng Scrap Riyadh",
         
-        // About Section
+        // ===== ABOUT SECTION (HOME PAGE) =====
         aboutTitle: "Maligayang Pagdating sa <span>Riyadh Scrap Solutions</span>",
         aboutSub: "Ang iyong pinagkakatiwalaang kasosyo sa scrap sa buong Kaharian.",
         aboutHeading: "Sino Kami",
@@ -499,7 +804,7 @@ const translations = {
         valuable5: "Iba pang magagamit na materyales",
         servingText: '📍 Naglilingkod sa <span>lahat ng lugar</span> sa Riyadh<br /> Para sa mabilis na serbisyo, makipag-ugnayan sa amin sa pamamagitan ng <strong>Tawag</strong> o <strong>WhatsApp</strong>',
         
-        // Services Section
+        // ===== SERVICES SECTION (HOME PAGE) =====
         servicesTitle: "Ang Aming <span>Mga Serbisyo</span>",
         servicesSub: "Propesyonal, maaasahan, at mabilis na mga solusyon sa scrap.",
         service1Title: "Instant Cash",
@@ -511,17 +816,17 @@ const translations = {
         service4Title: "Pagtatanggal ng Basura",
         service4Desc: "Libreng paglilinis at pagtatanggal ng basura sa gusali.",
         
-        // Items Section
+        // ===== ITEMS SECTION =====
         itemsTitle: "Mga Bagay na <span>Binibili Namin</span>",
         itemsSub: "Tumatanggap kami ng malawak na hanay ng mga materyales na scrap.",
         
-        // Gallery Section
+        // ===== GALLERY SECTION (HOME PAGE) =====
         galleryTitle: "Ang Aming <span>Gallery</span>",
         gallerySub: "Ilang kamakailang gawain sa pagkolekta ng scrap sa buong Riyadh.",
         uploadLabel: "📤 Mag-upload ng Iyong Mga Larawan",
         uploadText: "Mag-upload ng mga larawan ng iyong scrap para sa mabilis na quote",
         
-        // Reviews Section
+        // ===== REVIEWS SECTION =====
         reviewsTitle: "Ang Sinasabi ng Aming <span>Mga Customer</span>",
         reviewsSub: "Tunay na mga review mula sa tunay na mga customer sa Riyadh.",
         review1Text: '"Napakahusay na serbisyo! Dumating sila sa aking lokasyon sa loob ng isang oras, nagbigay ng patas na presyo para sa aking lumang kotse, at nagbayad ng cash kaagad. Lubos na inirerekomenda!"',
@@ -544,7 +849,7 @@ const translations = {
         reviewSubmit: "📤 Isumite ang Review",
         reviewSuccess: "✅ Salamat sa iyong review! Nakakatulong ito sa iba na mahanap kami.",
         
-        // Why Choose Us
+        // ===== WHY CHOOSE US =====
         whyTitle: "Bakit <span>Kami Piliin</span>",
         whySub: "Maaasahan, transparent, at palaging patas.",
         why1Title: "Pinakamahusay na Presyo",
@@ -556,12 +861,12 @@ const translations = {
         why4Title: "Eco-Friendly",
         why4Desc: "Responsableng pag-recycle para sa mas luntiang hinaharap.",
         
-        // Areas Section
+        // ===== AREAS SECTION =====
         areasTitle: "Mga Lugar na <span>Pinaglilingkuran Namin sa Riyadh</span>",
         areasSub: "Nagbibigay kami ng mabilis na serbisyo sa pagkuha ng scrap sa lahat ng kapitbahayan sa Riyadh.",
         areasMore: "📍 <strong style='color: #1a7a3a;'>+ Marami pang Lugar!</strong> Tumawag sa amin para sa pickup kahit saan sa Riyadh.",
         
-        // FAQ Section
+        // ===== FAQ SECTION =====
         faqTitle: "Mga Madalas Itanong",
         faqSub: "Maghanap ng mga sagot sa karaniwang tanong tungkol sa aming mga serbisyo sa pagbili ng scrap.",
         faq1Q: "🔴 Anong mga uri ng scrap ang binibili ninyo?",
@@ -577,7 +882,7 @@ const translations = {
         faq6Q: "📞 Paano ako makakakuha ng quote?",
         faq6A: "Tumawag sa amin sa <strong style='color: #1a7a3a;'>+966 57 471 2106</strong> o gamitin ang aming form sa pakikipag-ugnayan. Bibigyan ka namin ng libreng quote sa loob ng ilang minuto!",
         
-        // Blog Section
+        // ===== BLOG SECTION (HOME PAGE) =====
         blogTitle: "Bakit Piliin ang <span>Riyadh Scrap Solutions</span>",
         blogSub: "Kami ang iyong pinagkakatiwalaang kasosyo para sa pag-recycle ng scrap sa Riyadh.",
         blog1Title: "Mga Benepisyo sa Kapaligiran",
@@ -589,7 +894,7 @@ const translations = {
         blogCTA: "💬 <strong>Handa nang ibenta ang iyong scrap?</strong> Makipag-ugnayan sa amin ngayon para sa libreng quote!",
         blogCTABtn: "📞 Tumawag Ngayon",
         
-        // Form Section
+        // ===== FORM SECTION (HOME PAGE) =====
         formTitle: "Kumuha ng <span>Libreng Quote</span>",
         formSub: "Punan ang form at makikipag-ugnayan kami sa iyo sa loob ng 30 minuto.",
         formName: "Buong Pangalan <span class='required'>*</span>",
@@ -623,18 +928,18 @@ const translations = {
         formSubmit: "📩 Magpadala ng Inquiry",
         formSuccess: "✅ Salamat! Makikipag-ugnayan kami sa iyo sa loob ng 30 minuto.",
         
-        // Social Section
+        // ===== SOCIAL SECTION =====
         socialTitle: "Kumonekta sa Amin",
         socialSub: "Sundan kami sa social media para sa mga update at alok.",
         
-        // Contact Section
+        // ===== CONTACT SECTION (HOME PAGE) =====
         contactTitle: "📞 Tumawag o <span>Bisitahin</span> Ngayon",
         contactSub: "Naglilingkod sa lahat ng lugar sa Riyadh. Kumuha ng libreng quote sa ilang minuto.",
         contactBtn: "📞 Tumawag Ngayon: +966 57 471 2106",
         contactLocation: "📍 Sulayman Bin Yaseer, Riyadh",
         contactHours: "🕒 Sab–Hue: 7 AM – 9 PM | Biyernes Sarado",
         
-        // Footer
+        // ===== FOOTER =====
         footerLocation: "📍 Sulayman Bin Yaseer, Riyadh",
         footerHours: "🕒 Sab–Hue: 7 AM – 9 PM",
         footerCopyright: "&copy; 2026 <strong>Riyadh Scrap Solutions</strong>. Lahat ng karapatan ay nakalaan.",
@@ -645,8 +950,153 @@ const translations = {
         footerLinkReviews: "Mga Review",
         footerLinkContact: "Makipag-ugnayan",
         footerLinkScrap: "Scrap sa Riyadh",
+        footerLinkBlog: "Blog",
         
-        // ===== SCRAP PAGE TRANSLATIONS - FILIPINO =====
+        // ===== ABOUT PAGE TRANSLATIONS - FIL =====
+        aboutPageTitle: "Tungkol sa Amin | Riyadh Scrap Solutions - Pinagkakatiwalaang Mamimili ng Scrap sa Riyadh",
+        aboutHeroTitle: "Tungkol sa <span>Amin</span>",
+        aboutHeroSub: "Ang iyong pinagkakatiwalaang kasosyo sa scrap sa Riyadh mula noong 2026.",
+        aboutWhoHeading: "Sino Kami",
+        aboutWhoText1: "Ang Riyadh Scrap Solutions ay isang lokal na pag-aari at pinapatakbong kumpanya ng pagbili at pag-recycle ng scrap na naglilingkod sa lahat ng lugar ng Riyadh at mga karatig rehiyon.",
+        aboutWhoText2: "Dalubhasa kami sa pagbili ng lahat ng uri ng scrap materials — mula sa mga metal sa bahay hanggang sa kagamitang pang-industriya — na may pangako sa patas na presyo, propesyonal na serbisyo, at responsibilidad sa kapaligiran.",
+        aboutMissionHeading: "Ang Aming Misyon",
+        aboutMissionText: "Upang magbigay ng pinaka-maaasahan, transparent, at eco-friendly na serbisyo sa pagbili ng scrap sa Riyadh, tinitiyak na ang bawat customer ay makakakuha ng instant cash at pambihirang serbisyo.",
+        aboutVisionHeading: "Ang Aming Bisyon",
+        aboutVisionText: "Upang maging nangungunang kumpanya ng pag-recycle ng scrap sa Saudi Arabia, na nag-aambag sa isang mas luntiang at mas napapanatiling hinaharap.",
+        aboutWhyHeading: "Bakit Kami Piliin",
+        aboutWhy1: "✅ Propesyonal at maaasahang serbisyo",
+        aboutWhy2: "✅ Instant cash payment",
+        aboutWhy3: "✅ Libreng pickup kahit saan sa Riyadh",
+        aboutWhy4: "✅ Patas at transparent na presyo",
+        aboutWhy5: "✅ Responsableng pag-recycle sa kapaligiran",
+        aboutWhy6: "✅ Serbisyo ng parehong araw",
+        aboutWhy7: "✅ Libreng demolisyon ng gusali",
+        aboutWhy8: "✅ Libreng pagtatanggal ng basura",
+        aboutValuesTitle: "Ang Aming <span>Mga Halaga</span>",
+        aboutValuesSub: "Ang mga prinsipyong gumagabay sa lahat ng aming ginagawa.",
+        aboutValue1Title: "Integridad",
+        aboutValue1Desc: "Palagi kaming nakikitungo nang tapat at patas sa bawat customer.",
+        aboutValue2Title: "Bilis",
+        aboutValue2Desc: "Mabilis na pickup at instant cash payment sa bawat pagkakataon.",
+        aboutValue3Title: "Pagpapanatili",
+        aboutValue3Desc: "Nakatuon sa eco-friendly na mga kasanayan sa pag-recycle.",
+        aboutValue4Title: "Tiwalain",
+        aboutValue4Desc: "Pagbuo ng pangmatagalang relasyon sa aming mga customer.",
+        aboutCTATitle: "Makipagtulungan sa <span style='color: #1a7a3a;'>Mga Pinagkakatiwalaang Propesyonal</span>",
+        aboutCTAText: "Makipag-ugnayan sa amin ngayon para sa libreng quote at maranasan ang pagkakaiba.",
+        aboutCTABtn: "📞 Tumawag Ngayon",
+        
+        // ===== SERVICES PAGE TRANSLATIONS - FIL =====
+        servicesPageTitle: "Aming Mga Serbisyo | Riyadh Scrap Solutions - Propesyonal na Pagbili ng Scrap sa Riyadh",
+        servicesHeroTitle: "Aming <span>Mga Serbisyo</span>",
+        servicesHeroSub: "Propesyonal, maaasahan, at mabilis na mga solusyon sa scrap sa buong Riyadh.",
+        servicesOfferTitle: "Ano ang <span>Inaalok Namin</span>",
+        servicesOfferSub: "Detalyadong breakdown ng lahat ng aming propesyonal na serbisyo sa scrap.",
+        service1TitleFull: "Instant Cash Payment",
+        service1DescFull: "Mabayaran kaagad pagkatapos ng pickup. Walang paghihintay, walang pagkaantala.",
+        service1Li1: "Pagbabayad sa parehong araw",
+        service1Li2: "Patas at transparent na pagtimbang",
+        service1Li3: "Walang nakatagong bayad",
+        service2TitleFull: "Libreng Scrap Pickup",
+        service2DescFull: "Pumupunta kami sa iyong lokasyon kahit saan sa Riyadh nang walang bayad.",
+        service2Li1: "Mabilis na oras ng pagtugon (sa loob ng 1-2 oras)",
+        service2Li2: "Propesyonal na pag-load at paghawak",
+        service2Li3: "Available para sa residential, commercial, at industrial",
+        service3TitleFull: "Demolisyon ng Gusali",
+        service3DescFull: "Libreng demolisyon at pagtatanggal ng scrap para sa mga ari-arian at gusali.",
+        service3Li1: "Pagtanggal ng mga estruktura ng bakal",
+        service3Li2: "Mga pinto at bintana ng bakal",
+        service3Li3: "Mga AC unit at compressor",
+        service3Li4: "Mga electrical cable at wiring",
+        service4TitleFull: "Pagtatanggal ng Basura",
+        service4DescFull: "Libreng paglilinis at pagtatanggal ng basura at rubbish ng gusali.",
+        service4Li1: "Paglilinis pagkatapos ng demolisyon",
+        service4Li2: "Pagtanggal ng basura sa konstruksyon",
+        service4Li3: "Paglilinis ng bodega",
+        service5TitleFull: "Pag-recycle ng Metal",
+        service5DescFull: "Responsableng pag-recycle sa kapaligiran ng lahat ng uri ng scrap metal.",
+        service5Li1: "Pag-recycle ng tanso",
+        service5Li2: "Pag-recycle ng aluminyo",
+        service5Li3: "Pag-recycle ng bakal at iron",
+        service5Li4: "Pag-recycle ng mixed metal",
+        service6TitleFull: "Mga Serbisyo sa Industrial Scrap",
+        service6DescFull: "Espesyalisadong serbisyo para sa mga pabrika, bodega, at industrial sites.",
+        service6Li1: "Pagtanggal ng mabibigat na makinarya",
+        service6Li2: "Industrial metal recycling",
+        service6Li3: "Pag-decommission ng kagamitan",
+        pricingTitle: "Tinatayang <span>Presyo</span>",
+        pricingSub: "Nag-iiba ang presyo batay sa dami, kalidad, at market rates. Tumawag para sa libreng quote.",
+        price1Title: "Tanso",
+        price2Title: "Aluminyo",
+        price3Title: "Bakal",
+        price4Title: "Iron",
+        price5Title: "Baterya",
+        price6Title: "AC Units",
+        pricingNote: "📞 Tumawag para sa eksaktong presyo sa iyong partikular na scrap.",
+        servicesCTATitle: "Handa nang <span style='color: #1a7a3a;'>Ibenta ang Iyong Scrap?</span>",
+        servicesCTAText: "Makipag-ugnayan sa amin ngayon para sa libreng quote at pickup sa parehong araw.",
+        servicesCTABtn: "📞 Tumawag Ngayon",
+        
+        // ===== CONTACT PAGE TRANSLATIONS - FIL =====
+        contactPageTitle: "Makipag-ugnayan sa Amin | Riyadh Scrap Solutions - Kumuha ng Libreng Quote",
+        contactHeroTitle: "Makipag-ugnayan <span>sa Amin</span>",
+        contactHeroSub: "Kumuha ng libreng quote sa ilang minuto. Tumawag, WhatsApp, o punan ang form.",
+        contactInfoTitle: "Makipag-ugnayan <span style='color: #1a7a3a;'>sa Amin</span>",
+        contactInfoText: "Nandito kami upang tumulong sa lahat ng iyong pangangailangan sa scrap. Makipag-ugnayan sa amin para sa libreng quote, pickup sa parehong araw, o anumang katanungan.",
+        contactPhoneLabel: "Telepono",
+        contactWhatsAppLabel: "WhatsApp",
+        contactWhatsAppLink: "+966 57 471 2106",
+        contactEmailLabel: "Email",
+        contactLocationLabel: "Lokasyon",
+        contactLocationText: "Sulayman Bin Yaseer, Riyadh",
+        contactHoursLabel: "Oras ng Trabaho",
+        contactHoursText: "Sab–Hue: 7 AM – 9 PM | Biyernes Sarado",
+        contactFormTitle: "Magpadala ng <span style='color: #1a7a3a;'>Mensahe</span>",
+        contactFormSub: "Makikipag-ugnayan kami sa iyo sa loob ng 30 minuto.",
+        contactCTATitle: "📞 Tumawag o <span style='color: #1a7a3a;'>Bisitahin</span> Ngayon",
+        contactCTAText: "Naglilingkod sa lahat ng lugar sa Riyadh. Kumuha ng libreng quote sa ilang minuto.",
+        contactCTABtn: "📞 Tumawag Ngayon: +966 57 471 2106",
+        
+        // ===== GALLERY PAGE TRANSLATIONS - FIL =====
+        galleryPageTitle: "Gallery | Riyadh Scrap Solutions - Mga Larawan ng Pagkolekta ng Scrap sa Riyadh",
+        galleryHeroTitle: "Ang Aming <span>Gallery</span>",
+        galleryHeroSub: "Tingnan ang aming trabaho sa buong Riyadh — pagkolekta ng scrap, pag-recycle, at demolisyon.",
+        galleryTitleFull: "Photo <span>Gallery</span>",
+        gallerySubFull: "Tunay na mga larawan ng aming pagkolekta ng scrap at pag-recycle sa buong Riyadh.",
+        galleryCTATitle: "May Scrap na <span style='color: #1a7a3a;'>Ibebenta?</span>",
+        galleryCTAText: "I-upload ang iyong mga larawan o tumawag sa amin para sa libreng quote.",
+        galleryCTABtn: "📞 Tumawag Ngayon",
+        
+        // ===== BLOG PAGE TRANSLATIONS - FIL =====
+        blogPageTitle: "Blog | Riyadh Scrap Solutions - Mga Tip at Balita sa Pag-recycle ng Scrap",
+        blogHeroTitle: "Ang Aming <span>Blog</span>",
+        blogHeroSub: "Mga tip, gabay, at balita tungkol sa pag-recycle ng scrap sa Riyadh.",
+        blogTitleFull: "Pinakabagong <span>Mga Post</span>",
+        blogSubFull: "Basahin ang aming pinakabagong mga artikulo para sa mga tip at pananaw.",
+        blog1Date: "Hulyo 19, 2026",
+        blog1TitleFull: "Nangungunang 5 Benepisyo ng Pag-recycle ng Scrap Metal",
+        blog1DescFull: "Tuklasin kung bakit ang pag-recycle ng scrap metal ay mabuti para sa iyo at sa kapaligiran. Alamin ang tungkol sa mga benepisyo sa kapaligiran at ekonomiya.",
+        blog2Date: "Hulyo 18, 2026",
+        blog2TitleFull: "Paano Makuha ang Pinakamahusay na Presyo para sa Iyong Scrap",
+        blog2DescFull: "Mga tip upang mapakinabangan ang iyong kita kapag nagbebenta ng scrap metal. Alamin kung paano paghiwalayin ang mga metal at pumili ng tamang mamimili.",
+        blog3Date: "Hulyo 17, 2026",
+        blog3TitleFull: "Kumpletong Gabay sa Demolisyon ng Gusali sa Riyadh",
+        blog3DescFull: "Lahat ng kailangan mong malaman tungkol sa demolisyon ng gusali at pagtatanggal ng scrap sa Riyadh. Available ang libreng serbisyo.",
+        blog4Date: "Hulyo 16, 2026",
+        blog4TitleFull: "Pag-unawa sa Mga Presyo ng Scrap Metal sa Riyadh",
+        blog4DescFull: "Alamin ang tungkol sa kasalukuyang mga presyo ng scrap metal sa Riyadh. Tanso, aluminyo, bakal, at higit pa — regular na ina-update.",
+        blog5Date: "Hulyo 15, 2026",
+        blog5TitleFull: "Bakit Pumili ng Propesyonal na Mamimili ng Scrap?",
+        blog5DescFull: "Mga benepisyo ng pakikipagtulungan sa mga propesyonal na mamimili ng scrap tulad ng Riyadh Scrap Solutions. Patas na presyo, libreng pickup, at higit pa.",
+        blog6Date: "Hulyo 14, 2026",
+        blog6TitleFull: "Mga Tip sa Eco-Friendly na Pag-recycle ng Scrap",
+        blog6DescFull: "Alamin kung paano mag-recycle ng scrap nang responsable at mag-ambag sa isang mas luntiang Saudi Arabia. Mga simpleng tip para sa lahat.",
+        blogReadMore: "Magbasa Pa →",
+        blogCTATitleFull: "May Scrap na <span style='color: #1a7a3a;'>Ibebenta?</span>",
+        blogCTATextFull: "Makipag-ugnayan sa amin para sa libreng quote at pickup sa parehong araw.",
+        blogCTABtnFull: "📞 Tumawag Ngayon",
+        
+        // ===== SCRAP PAGE TRANSLATIONS - FIL =====
         scrapPageTitle: "Scrap sa Riyadh | Pinakamahusay na Mamimili ng Scrap sa Riyadh | Libreng Pickup at Cash",
         scrapHeading: "Scrap sa <span>Riyadh</span>",
         scrapSubheading: "Ang iyong pinagkakatiwalaang kasosyo para sa pagbili at pagbebenta ng lahat ng uri ng scrap materials sa buong Riyadh.",
@@ -673,21 +1123,21 @@ const translations = {
         scrapFeature5Desc: "Libreng demolisyon at serbisyo sa pagtatanggal ng scrap",
         scrapFeature6Title: "Pagtatanggal ng Basura",
         scrapFeature6Desc: "Libreng paglilinis ng basura at debris ng gusali",
-        scrapAreasTitle: "Mga Lugar na <span>Pinaglilingkuran Namin sa Riyadh</span>",
-        scrapAreasSub: "Nagbibigay ng serbisyo sa pagkuha ng scrap sa lahat ng kapitbahayan sa Riyadh.",
-        scrapAreasMore: "📍 <strong style='color: #1a7a3a;'>+ Marami pang Lugar!</strong> Tumawag sa amin para sa pickup kahit saan sa Riyadh.",
-        scrapCTATitle: "📞 Handa nang Ibenta ang Iyong Scrap?",
-        scrapCTAText: "Tumawag sa amin ngayon para sa libreng quote at instant pickup kahit saan sa Riyadh.",
-        scrapCTABtn: "📞 Tumawag Ngayon: +966 57 471 2106",
+        scrapAreasTitleScrap: "Mga Lugar na <span>Pinaglilingkuran Namin sa Riyadh</span>",
+        scrapAreasSubScrap: "Nagbibigay ng serbisyo sa pagkuha ng scrap sa lahat ng kapitbahayan sa Riyadh.",
+        scrapAreasMoreScrap: "📍 <strong style='color: #1a7a3a;'>+ Marami pang Lugar!</strong> Tumawag sa amin para sa pickup kahit saan sa Riyadh.",
+        scrapCTATitleScrap: "📞 Handa nang Ibenta ang Iyong Scrap?",
+        scrapCTATextScrap: "Tumawag sa amin ngayon para sa libreng quote at instant pickup kahit saan sa Riyadh.",
+        scrapCTABtnScrap: "📞 Tumawag Ngayon: +966 57 471 2106",
         scrapWhatsApp: "💬 O I-WhatsApp Kami"
     },
     
     hi: {
-        // Page Title
+        // ===== PAGE TITLE =====
         pageTitle: "रियाद स्क्रैप सॉल्यूशंस | रियाद में सबसे अच्छा स्क्रैप खरीदार | मुफ्त पिकअप और नकद",
         skipLink: "सामग्री पर जाएं",
         
-        // Navigation
+        // ===== NAVIGATION =====
         navHome: "होम",
         navServices: "सेवाएँ",
         navAbout: "हमारे बारे में",
@@ -695,19 +1145,20 @@ const translations = {
         navReviews: "समीक्षाएँ",
         navContact: "संपर्क करें",
         navScrap: "रियाद में स्क्रैप",
+        navBlog: "ब्लॉग",
         
-        // Hero Section
+        // ===== HERO SECTION =====
         heroBadge: "📍 रियाद के सभी क्षेत्रों में सेवा",
         heroTitle: "रियाद स्क्रैप सॉल्यूशंस – <span>पेशेवर</span> स्क्रैप खरीदार रियाद में",
         heroSubtitle: 'हम सभी प्रकार के स्क्रैप खरीदते हैं — तांबा, एल्यूमीनियम, स्टील, कारें, और भी बहुत कुछ। <strong>मुफ्त पिकअप</strong> और तुरंत नकद भुगतान।',
         heroBtnCall: "📞 कोट के लिए कॉल करें",
         heroBtnWhatsApp: "💬 WhatsApp पर संपर्क करें",
         
-        // Breadcrumb
+        // ===== BREADCRUMB =====
         breadcrumbHome: "होम",
         breadcrumbCurrent: "रियाद स्क्रैप खरीदार",
         
-        // About Section
+        // ===== ABOUT SECTION (HOME PAGE) =====
         aboutTitle: "<span>रियाद स्क्रैप सॉल्यूशंस</span> में आपका स्वागत है",
         aboutSub: "पूरे राज्य में आपका भरोसेमंद स्क्रैप पार्टनर।",
         aboutHeading: "हम कौन हैं",
@@ -726,7 +1177,7 @@ const translations = {
         valuable5: "अन्य पुन: प्रयोज्य सामग्री",
         servingText: '📍 रियाद भर में <span>सभी क्षेत्रों</span> में सेवा<br /> त्वरित सेवा के लिए, <strong>कॉल</strong> या <strong>WhatsApp</strong> के माध्यम से हमसे संपर्क करें',
         
-        // Services Section
+        // ===== SERVICES SECTION (HOME PAGE) =====
         servicesTitle: "हमारी <span>सेवाएँ</span>",
         servicesSub: "पेशेवर, भरोसेमंद, और तेज स्क्रैप समाधान।",
         service1Title: "तुरंत नकद",
@@ -738,17 +1189,17 @@ const translations = {
         service4Title: "कचरा हटाना",
         service4Desc: "भवन कचरे की मुफ्त सफाई और हटाना।",
         
-        // Items Section
+        // ===== ITEMS SECTION =====
         itemsTitle: "हम <span>क्या खरीदते हैं</span>",
         itemsSub: "हम स्क्रैप सामग्री की एक विस्तृत श्रृंखला स्वीकार करते हैं।",
         
-        // Gallery Section
+        // ===== GALLERY SECTION (HOME PAGE) =====
         galleryTitle: "हमारी <span>गैलरी</span>",
         gallerySub: "रियाद भर में हमारे कुछ हालिया स्क्रैप संग्रह कार्य।",
         uploadLabel: "📤 अपनी छवियाँ अपलोड करें",
         uploadText: "त्वरित कोट के लिए अपने स्क्रैप की छवियाँ अपलोड करें",
         
-        // Reviews Section
+        // ===== REVIEWS SECTION =====
         reviewsTitle: "हमारे <span>ग्राहक क्या कहते हैं</span>",
         reviewsSub: "रियाद में वास्तविक ग्राहकों से वास्तविक समीक्षाएँ।",
         review1Text: '"उत्कृष्ट सेवा! वे एक घंटे के भीतर मेरे स्थान पर आए, मेरी पुरानी कार के लिए उचित मूल्य दिया, और तुरंत नकद भुगतान किया। अत्यधिक अनुशंसा करते हैं!"',
@@ -771,7 +1222,7 @@ const translations = {
         reviewSubmit: "📤 समीक्षा सबमिट करें",
         reviewSuccess: "✅ आपकी समीक्षा के लिए धन्यवाद! यह दूसरों को हमें ढूंढने में मदद करता है।",
         
-        // Why Choose Us
+        // ===== WHY CHOOSE US =====
         whyTitle: "हमें <span>क्यों चुनें</span>",
         whySub: "भरोसेमंद, पारदर्शी, और हमेशा निष्पक्ष।",
         why1Title: "सर्वोत्तम मूल्य",
@@ -783,12 +1234,12 @@ const translations = {
         why4Title: "पर्यावरण-अनुकूल",
         why4Desc: "हरित भविष्य के लिए जिम्मेदार पुनर्चक्रण।",
         
-        // Areas Section
+        // ===== AREAS SECTION =====
         areasTitle: "रियाद में हम <span>किन क्षेत्रों में सेवा देते हैं</span>",
         areasSub: "हम रियाद के सभी पड़ोस में तेज स्क्रैप पिकअप सेवाएँ प्रदान करते हैं।",
         areasMore: "📍 <strong style='color: #1a7a3a;'>+ और भी कई क्षेत्र!</strong> रियाद में कहीं भी पिकअप के लिए हमें कॉल करें।",
         
-        // FAQ Section
+        // ===== FAQ SECTION =====
         faqTitle: "अक्सर पूछे जाने वाले <span>प्रश्न</span>",
         faqSub: "हमारी स्क्रैप खरीद सेवाओं के बारे में सामान्य प्रश्नों के उत्तर खोजें।",
         faq1Q: "🔴 आप किस प्रकार का स्क्रैप खरीदते हैं?",
@@ -804,7 +1255,7 @@ const translations = {
         faq6Q: "📞 मैं कोट कैसे प्राप्त कर सकता हूँ?",
         faq6A: "हमें <strong style='color: #1a7a3a;'>+966 57 471 2106</strong> पर कॉल करें या हमारे संपर्क फॉर्म का उपयोग करें। हम आपको मिनटों के भीतर एक मुफ्त कोट देंगे!",
         
-        // Blog Section
+        // ===== BLOG SECTION (HOME PAGE) =====
         blogTitle: "<span>रियाद स्क्रैप सॉल्यूशंस</span> क्यों चुनें",
         blogSub: "हम रियाद में स्क्रैप पुनर्चक्रण के लिए आपके भरोसेमंद भागीदार हैं।",
         blog1Title: "पर्यावरणीय लाभ",
@@ -816,7 +1267,7 @@ const translations = {
         blogCTA: "💬 <strong>अपना स्क्रैप बेचने के लिए तैयार हैं?</strong> मुफ्त कोट के लिए आज ही हमसे संपर्क करें!",
         blogCTABtn: "📞 अभी कॉल करें",
         
-        // Form Section
+        // ===== FORM SECTION (HOME PAGE) =====
         formTitle: "एक <span>मुफ्त कोट</span> प्राप्त करें",
         formSub: "फॉर्म भरें और हम 30 मिनट के भीतर आपसे संपर्क करेंगे।",
         formName: "पूरा नाम <span class='required'>*</span>",
@@ -850,18 +1301,18 @@ const translations = {
         formSubmit: "📩 पूछताछ भेजें",
         formSuccess: "✅ धन्यवाद! हम 30 मिनट के भीतर आपसे संपर्क करेंगे।",
         
-        // Social Section
+        // ===== SOCIAL SECTION =====
         socialTitle: "हमसे जुड़ें",
         socialSub: "अपडेट और ऑफर के लिए सोशल मीडिया पर हमें फॉलो करें।",
         
-        // Contact Section
+        // ===== CONTACT SECTION (HOME PAGE) =====
         contactTitle: "📞 आज <span>कॉल करें या विज़िट करें</span>",
         contactSub: "रियाद के सभी क्षेत्रों में सेवा। मिनटों में एक मुफ्त कोट प्राप्त करें।",
         contactBtn: "📞 अभी कॉल करें: +966 57 471 2106",
         contactLocation: "📍 सुलेमान बिन यासिर, रियाद",
         contactHours: "🕒 शनि–गुरु: सुबह 7 – रात 9 | शुक्रवार बंद",
         
-        // Footer
+        // ===== FOOTER =====
         footerLocation: "📍 सुलेमान बिन यासिर, रियाद",
         footerHours: "🕒 शनि–गुरु: सुबह 7 – रात 9",
         footerCopyright: "&copy; 2026 <strong>रियाद स्क्रैप सॉल्यूशंस</strong>. सभी अधिकार सुरक्षित।",
@@ -872,8 +1323,153 @@ const translations = {
         footerLinkReviews: "समीक्षाएँ",
         footerLinkContact: "संपर्क करें",
         footerLinkScrap: "रियाद में स्क्रैप",
+        footerLinkBlog: "ब्लॉग",
         
-        // ===== SCRAP PAGE TRANSLATIONS - HINDI =====
+        // ===== ABOUT PAGE TRANSLATIONS - HI =====
+        aboutPageTitle: "हमारे बारे में | रियाद स्क्रैप सॉल्यूशंस - रियाद में भरोसेमंद स्क्रैप खरीदार",
+        aboutHeroTitle: "हमारे <span>बारे में</span>",
+        aboutHeroSub: "रियाद में 2026 से आपका भरोसेमंद स्क्रैप पार्टनर।",
+        aboutWhoHeading: "हम कौन हैं",
+        aboutWhoText1: "रियाद स्क्रैप सॉल्यूशंस एक स्थानीय स्वामित्व और संचालित स्क्रैप खरीद और पुनर्चक्रण कंपनी है जो रियाद और आसपास के क्षेत्रों की सभी क्षेत्रों में सेवा प्रदान करती है।",
+        aboutWhoText2: "हम सभी प्रकार की स्क्रैप सामग्री खरीदने में विशेषज्ञ हैं - घरेलू धातुओं से लेकर औद्योगिक उपकरणों तक - उचित मूल्य निर्धारण, पेशेवर सेवा और पर्यावरणीय जिम्मेदारी की प्रतिबद्धता के साथ।",
+        aboutMissionHeading: "हमारा मिशन",
+        aboutMissionText: "रियाद में सबसे भरोसेमंद, पारदर्शी और पर्यावरण-अनुकूल स्क्रैप खरीद सेवा प्रदान करना, यह सुनिश्चित करना कि हर ग्राहक को तुरंत नकद और असाधारण सेवा मिले।",
+        aboutVisionHeading: "हमारा दृष्टिकोण",
+        aboutVisionText: "सऊदी अरब में अग्रणी स्क्रैप पुनर्चक्रण कंपनी बनना, एक हरियाली और अधिक टिकाऊ भविष्य में योगदान देना।",
+        aboutWhyHeading: "हमें क्यों चुनें",
+        aboutWhy1: "✅ पेशेवर और भरोसेमंद सेवा",
+        aboutWhy2: "✅ तुरंत नकद भुगतान",
+        aboutWhy3: "✅ रियाद में कहीं भी मुफ्त पिकअप",
+        aboutWhy4: "✅ उचित और पारदर्शी मूल्य निर्धारण",
+        aboutWhy5: "✅ पर्यावरणीय रूप से जिम्मेदार पुनर्चक्रण",
+        aboutWhy6: "✅ उसी दिन सेवा",
+        aboutWhy7: "✅ मुफ्त भवन विध्वंस",
+        aboutWhy8: "✅ मुफ्त कचरा हटाना",
+        aboutValuesTitle: "हमारे <span>मूल्य</span>",
+        aboutValuesSub: "वे सिद्धांत जो हमारे द्वारा किए जाने वाले हर काम का मार्गदर्शन करते हैं।",
+        aboutValue1Title: "ईमानदारी",
+        aboutValue1Desc: "हम हर ग्राहक के साथ हमेशा ईमानदारी और निष्पक्षता से व्यवहार करते हैं।",
+        aboutValue2Title: "गति",
+        aboutValue2Desc: "हर बार तेज पिकअप और तुरंत नकद भुगतान।",
+        aboutValue3Title: "स्थिरता",
+        aboutValue3Desc: "पर्यावरण-अनुकूल पुनर्चक्रण प्रथाओं के लिए प्रतिबद्ध।",
+        aboutValue4Title: "विश्वास",
+        aboutValue4Desc: "हमारे ग्राहकों के साथ स्थायी संबंध बनाना।",
+        aboutCTATitle: "<span style='color: #1a7a3a;'>भरोसेमंद पेशेवरों</span> के साथ काम करें",
+        aboutCTAText: "मुफ्त कोट के लिए आज ही हमसे संपर्क करें और अंतर का अनुभव करें।",
+        aboutCTABtn: "📞 अभी कॉल करें",
+        
+        // ===== SERVICES PAGE TRANSLATIONS - HI =====
+        servicesPageTitle: "हमारी सेवाएँ | रियाद स्क्रैप सॉल्यूशंस - रियाद में पेशेवर स्क्रैप खरीद",
+        servicesHeroTitle: "हमारी <span>सेवाएँ</span>",
+        servicesHeroSub: "रियाद भर में पेशेवर, भरोसेमंद, और तेज स्क्रैप समाधान।",
+        servicesOfferTitle: "हम <span>क्या प्रदान करते हैं</span>",
+        servicesOfferSub: "हमारी सभी पेशेवर स्क्रैप सेवाओं का विस्तृत विवरण।",
+        service1TitleFull: "तुरंत नकद भुगतान",
+        service1DescFull: "पिकअप पूरा होने पर तुरंत भुगतान प्राप्त करें। कोई प्रतीक्षा नहीं, कोई देरी नहीं।",
+        service1Li1: "उसी दिन भुगतान",
+        service1Li2: "उचित और पारदर्शी वजन",
+        service1Li3: "कोई छिपी हुई फीस नहीं",
+        service2TitleFull: "मुफ्त स्क्रैप पिकअप",
+        service2DescFull: "हम रियाद में कहीं भी आपके स्थान पर बिना किसी लागत के आते हैं।",
+        service2Li1: "त्वरित प्रतिक्रिया समय (1-2 घंटे के भीतर)",
+        service2Li2: "पेशेवर लोडिंग और हैंडलिंग",
+        service2Li3: "आवासीय, वाणिज्यिक, और औद्योगिक के लिए उपलब्ध",
+        service3TitleFull: "भवन विध्वंस",
+        service3DescFull: "संपत्तियों और इमारतों के लिए मुफ्त विध्वंस और स्क्रैप हटाना।",
+        service3Li1: "स्टील संरचनाओं को हटाना",
+        service3Li2: "स्टील के दरवाजे और खिड़कियाँ",
+        service3Li3: "एसी यूनिट और कंप्रेसर",
+        service3Li4: "विद्युत केबल और वायरिंग",
+        service4TitleFull: "कचरा हटाना",
+        service4DescFull: "भवन कचरे और मलबे की मुफ्त सफाई और हटाना।",
+        service4Li1: "विध्वंस के बाद की सफाई",
+        service4Li2: "निर्माण अपशिष्ट हटाना",
+        service4Li3: "गोदाम की सफाई",
+        service5TitleFull: "धातु पुनर्चक्रण",
+        service5DescFull: "सभी प्रकार की स्क्रैप धातु का पर्यावरणीय रूप से जिम्मेदार पुनर्चक्रण।",
+        service5Li1: "तांबा पुनर्चक्रण",
+        service5Li2: "एल्यूमीनियम पुनर्चक्रण",
+        service5Li3: "स्टील और लोहा पुनर्चक्रण",
+        service5Li4: "मिश्रित धातु पुनर्चक्रण",
+        service6TitleFull: "औद्योगिक स्क्रैप सेवाएँ",
+        service6DescFull: "कारखानों, गोदामों, और औद्योगिक स्थलों के लिए विशेष सेवाएँ।",
+        service6Li1: "भारी मशीनरी हटाना",
+        service6Li2: "औद्योगिक धातु पुनर्चक्रण",
+        service6Li3: "उपकरण डिकमीशनिंग",
+        pricingTitle: "अनुमानित <span>मूल्य निर्धारण</span>",
+        pricingSub: "मात्रा, गुणवत्ता, और बाजार दरों के आधार पर मूल्य भिन्न होते हैं। मुफ्त कोट के लिए कॉल करें।",
+        price1Title: "तांबा",
+        price2Title: "एल्यूमीनियम",
+        price3Title: "स्टील",
+        price4Title: "लोहा",
+        price5Title: "बैटरियाँ",
+        price6Title: "एसी यूनिट",
+        pricingNote: "📞 अपने विशिष्ट स्क्रैप पर सटीक मूल्य निर्धारण के लिए कॉल करें।",
+        servicesCTATitle: "<span style='color: #1a7a3a;'>अपना स्क्रैप बेचने</span> के लिए तैयार हैं?",
+        servicesCTAText: "मुफ्त कोट और उसी दिन पिकअप के लिए आज ही हमसे संपर्क करें।",
+        servicesCTABtn: "📞 अभी कॉल करें",
+        
+        // ===== CONTACT PAGE TRANSLATIONS - HI =====
+        contactPageTitle: "संपर्क करें | रियाद स्क्रैप सॉल्यूशंस - मुफ्त कोट प्राप्त करें",
+        contactHeroTitle: "संपर्क <span>करें</span>",
+        contactHeroSub: "मिनटों में मुफ्त कोट प्राप्त करें। कॉल करें, WhatsApp करें, या फॉर्म भरें।",
+        contactInfoTitle: "<span style='color: #1a7a3a;'>संपर्क</span> में रहें",
+        contactInfoText: "हम आपकी सभी स्क्रैप आवश्यकताओं में मदद करने के लिए यहाँ हैं। मुफ्त कोट, उसी दिन पिकअप, या किसी भी प्रश्न के लिए हमसे संपर्क करें।",
+        contactPhoneLabel: "फोन",
+        contactWhatsAppLabel: "WhatsApp",
+        contactWhatsAppLink: "+966 57 471 2106",
+        contactEmailLabel: "ईमेल",
+        contactLocationLabel: "स्थान",
+        contactLocationText: "सुलेमान बिन यासिर, रियाद",
+        contactHoursLabel: "कार्य घंटे",
+        contactHoursText: "शनि–गुरु: सुबह 7 – रात 9 | शुक्रवार बंद",
+        contactFormTitle: "<span style='color: #1a7a3a;'>संदेश</span> भेजें",
+        contactFormSub: "हम 30 मिनट के भीतर आपसे संपर्क करेंगे।",
+        contactCTATitle: "📞 आज <span style='color: #1a7a3a;'>कॉल करें या विज़िट करें</span>",
+        contactCTAText: "रियाद के सभी क्षेत्रों में सेवा। मिनटों में एक मुफ्त कोट प्राप्त करें।",
+        contactCTABtn: "📞 अभी कॉल करें: +966 57 471 2106",
+        
+        // ===== GALLERY PAGE TRANSLATIONS - HI =====
+        galleryPageTitle: "गैलरी | रियाद स्क्रैप सॉल्यूशंस - रियाद में स्क्रैप संग्रह फ़ोटो",
+        galleryHeroTitle: "हमारी <span>गैलरी</span>",
+        galleryHeroSub: "रियाद भर में हमारा काम देखें — स्क्रैप संग्रह, पुनर्चक्रण, और विध्वंस।",
+        galleryTitleFull: "फोटो <span>गैलरी</span>",
+        gallerySubFull: "रियाद भर में हमारे स्क्रैप संग्रह और पुनर्चक्रण कार्य की वास्तविक तस्वीरें।",
+        galleryCTATitle: "<span style='color: #1a7a3a;'>बेचने</span> के लिए स्क्रैप है?",
+        galleryCTAText: "अपनी छवियाँ अपलोड करें या मुफ्त कोट के लिए हमें कॉल करें।",
+        galleryCTABtn: "📞 अभी कॉल करें",
+        
+        // ===== BLOG PAGE TRANSLATIONS - HI =====
+        blogPageTitle: "ब्लॉग | रियाद स्क्रैप सॉल्यूशंस - स्क्रैप पुनर्चक्रण पर टिप्स और समाचार",
+        blogHeroTitle: "हमारा <span>ब्लॉग</span>",
+        blogHeroSub: "रियाद में स्क्रैप पुनर्चक्रण के बारे में टिप्स, गाइड और समाचार।",
+        blogTitleFull: "नवीनतम <span>पोस्ट</span>",
+        blogSubFull: "टिप्स और अंतर्दृष्टि के लिए हमारे नवीनतम लेख पढ़ें।",
+        blog1Date: "19 जुलाई 2026",
+        blog1TitleFull: "स्क्रैप धातु पुनर्चक्रण के शीर्ष 5 लाभ",
+        blog1DescFull: "जानें कि स्क्रैप धातु का पुनर्चक्रण आपके और पर्यावरण के लिए क्यों अच्छा है। पर्यावरणीय और आर्थिक लाभों के बारे में जानें।",
+        blog2Date: "18 जुलाई 2026",
+        blog2TitleFull: "अपने स्क्रैप के लिए सर्वोत्तम मूल्य कैसे प्राप्त करें",
+        blog2DescFull: "स्क्रैप धातु बेचते समय अपनी कमाई को अधिकतम करने के टिप्स। धातुओं को अलग करना और सही खरीदार चुनना सीखें।",
+        blog3Date: "17 जुलाई 2026",
+        blog3TitleFull: "रियाद में भवन विध्वंस के लिए संपूर्ण गाइड",
+        blog3DescFull: "रियाद में भवन विध्वंस और स्क्रैप हटाने के बारे में आपको जो कुछ जानना चाहिए। मुफ्त सेवा उपलब्ध।",
+        blog4Date: "16 जुलाई 2026",
+        blog4TitleFull: "रियाद में स्क्रैप धातु की कीमतों को समझना",
+        blog4DescFull: "रियाद में वर्तमान स्क्रैप धातु की कीमतों के बारे में जानें। तांबा, एल्यूमीनियम, स्टील, और अधिक — नियमित रूप से अपडेट।",
+        blog5Date: "15 जुलाई 2026",
+        blog5TitleFull: "पेशेवर स्क्रैप खरीदारों को क्यों चुनें?",
+        blog5DescFull: "रियाद स्क्रैप सॉल्यूशंस जैसे पेशेवर स्क्रैप खरीदारों के साथ काम करने के लाभ। उचित मूल्य, मुफ्त पिकअप, और अधिक।",
+        blog6Date: "14 जुलाई 2026",
+        blog6TitleFull: "पर्यावरण-अनुकूल स्क्रैप पुनर्चक्रण टिप्स",
+        blog6DescFull: "जिम्मेदारी से स्क्रैप पुनर्चक्रण करना और हरियाली सऊदी अरब में योगदान करना सीखें। सभी के लिए सरल टिप्स।",
+        blogReadMore: "और पढ़ें →",
+        blogCTATitleFull: "<span style='color: #1a7a3a;'>बेचने</span> के लिए स्क्रैप है?",
+        blogCTATextFull: "मुफ्त कोट और उसी दिन पिकअप के लिए हमसे संपर्क करें।",
+        blogCTABtnFull: "📞 अभी कॉल करें",
+        
+        // ===== SCRAP PAGE TRANSLATIONS - HI =====
         scrapPageTitle: "रियाद में स्क्रैप | रियाद में सबसे अच्छा स्क्रैप खरीदार | मुफ्त पिकअप और नकद",
         scrapHeading: "रियाद में <span>स्क्रैप</span>",
         scrapSubheading: "पूरे रियाद में सभी प्रकार की स्क्रैप सामग्री खरीदने और बेचने के लिए आपका भरोसेमंद भागीदार।",
@@ -900,12 +1496,12 @@ const translations = {
         scrapFeature5Desc: "मुफ्त विध्वंस और स्क्रैप हटाने की सेवाएँ",
         scrapFeature6Title: "कचरा हटाना",
         scrapFeature6Desc: "भवन कचरे और मलबे की मुफ्त सफाई",
-        scrapAreasTitle: "रियाद में हम <span>किन क्षेत्रों में सेवा देते हैं</span>",
-        scrapAreasSub: "रियाद के सभी पड़ोस में स्क्रैप पिकअप सेवाएँ प्रदान करना।",
-        scrapAreasMore: "📍 <strong style='color: #1a7a3a;'>+ और भी कई क्षेत्र!</strong> रियाद में कहीं भी पिकअप के लिए हमें कॉल करें।",
-        scrapCTATitle: "📞 अपना स्क्रैप बेचने के लिए तैयार हैं?",
-        scrapCTAText: "मुफ्त कोट और रियाद में कहीं भी तुरंत पिकअप के लिए आज ही हमें कॉल करें।",
-        scrapCTABtn: "📞 अभी कॉल करें: +966 57 471 2106",
+        scrapAreasTitleScrap: "रियाद में हम <span>किन क्षेत्रों में सेवा देते हैं</span>",
+        scrapAreasSubScrap: "रियाद के सभी पड़ोस में स्क्रैप पिकअप सेवाएँ प्रदान करना।",
+        scrapAreasMoreScrap: "📍 <strong style='color: #1a7a3a;'>+ और भी कई क्षेत्र!</strong> रियाद में कहीं भी पिकअप के लिए हमें कॉल करें।",
+        scrapCTATitleScrap: "📞 अपना स्क्रैप बेचने के लिए तैयार हैं?",
+        scrapCTATextScrap: "मुफ्त कोट और रियाद में कहीं भी तुरंत पिकअप के लिए आज ही हमें कॉल करें।",
+        scrapCTABtnScrap: "📞 अभी कॉल करें: +966 57 471 2106",
         scrapWhatsApp: "💬 या WhatsApp पर संपर्क करें"
     }
 };
