@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en-SA">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Aluminum Scrap Buyers in Riyadh | Best Aluminum Scrap Prices | Riyadh Scrap Solutions</title>
+    <title data-translate="aluminumPageTitle">Aluminum Scrap Buyers in Riyadh | Best Aluminum Scrap Prices | Riyadh Scrap Solutions</title>
     <meta name="description" content="Best aluminum scrap buyers in Riyadh. We buy aluminum windows, doors, cans, sheets, industrial scrap & more. Highest prices for aluminum. Free pickup & instant cash. Call now!" />
     <meta name="keywords" content="aluminum scrap buyers Riyadh, aluminum scrap price Riyadh, aluminum window scrap, aluminum sheet scrap, aluminum recycling Riyadh" />
     <link rel="canonical" href="https://riyadscrapsolutions.com/aluminum/" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- hreflang tags for multilingual SEO -->
+    <link rel="alternate" href="https://riyadscrapsolutions.com/aluminum/" hreflang="en" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/aluminum/" hreflang="ar" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/aluminum/" hreflang="fil" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/aluminum/" hreflang="hi" />
+    <link rel="alternate" href="https://riyadscrapsolutions.com/aluminum/" hreflang="x-default" />
 
     <style>
         * {
@@ -302,6 +309,20 @@
             font-weight: 600;
         }
 
+        .skip-link {
+            position: absolute;
+            top: -9999px;
+            left: 0;
+            background: #1a7a3a;
+            color: #fff;
+            padding: 12px 24px;
+            z-index: 9999;
+            font-weight: 600;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+
         footer {
             background: #100a0a;
             color: rgba(255, 255, 255, 0.5);
@@ -371,6 +392,8 @@
 </head>
 <body>
 
+    <a href="#main-content" class="skip-link" data-translate="skipLink">Skip to content</a>
+
     <header>
         <div class="container header-flex">
             <div class="logo">
@@ -379,16 +402,23 @@
             </div>
             <button class="mobile-nav-toggle" onclick="toggleNav()">☰</button>
             <nav class="main-nav" id="mainNav">
-                <a href="/">Home</a>
-                <a href="/services.html">Services</a>
-                <a href="/about.html">About</a>
-                <a href="/gallery.html">Gallery</a>
-                <a href="/blog.html">Blog</a>
-                <a href="/buyers/">Scrap Buyers</a>
-                <a href="/pickup/">Free Pickup</a>
-                <a href="/copper/">Copper</a>
-                <a href="/aluminum/" class="active">Aluminum</a>
-                <a href="/contact.html">Contact</a>
+                <a href="/" data-translate="navHome">Home</a>
+                <a href="/services.html" data-translate="navServices">Services</a>
+                <a href="/about.html" data-translate="navAbout">About</a>
+                <a href="/gallery.html" data-translate="navGallery">Gallery</a>
+                <a href="/blog.html" data-translate="navBlog">Blog</a>
+                <a href="/scrap-in-riyadh.html" data-translate="navScrap">Scrap in Riyadh</a>
+                <a href="/buyers/" data-translate="navBuyers">Scrap Buyers</a>
+                <a href="/pickup/" data-translate="navPickup">Free Pickup</a>
+                <a href="/copper/" data-translate="navCopper">Copper</a>
+                <a href="/aluminum/" class="active" data-translate="navAluminum">Aluminum</a>
+                <a href="/contact.html" data-translate="navContact">Contact</a>
+                <div style="display:flex; gap:6px; align-items:center; margin-left:10px; border-left:1px solid rgba(255,255,255,0.2); padding-left:12px;" class="lang-switcher">
+                    <a href="#" data-lang="en" onclick="setLanguage('en'); return false;" style="font-weight:700; color:#1a7a3a;">🇬🇧 EN</a>
+                    <a href="#" data-lang="ar" onclick="setLanguage('ar'); return false;" style="color:rgba(255,255,255,0.7);">🇸🇦 AR</a>
+                    <a href="#" data-lang="fil" onclick="setLanguage('fil'); return false;" style="color:rgba(255,255,255,0.7);">🇵🇭 FIL</a>
+                    <a href="#" data-lang="hi" onclick="setLanguage('hi'); return false;" style="color:rgba(255,255,255,0.7);">🇮🇳 HI</a>
+                </div>
             </nav>
             <div class="header-phone">
                 📞 <a href="tel:+966574712106">+966 57 471 2106</a>
@@ -396,117 +426,181 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <div class="hero-badge">🔘 Best Aluminum Scrap Prices in Riyadh</div>
-            <h1>Aluminum <span>Scrap Buyers</span> in Riyadh</h1>
-            <p>We buy aluminum windows, doors, cans, sheets, industrial scrap &amp; more. <strong>Highest prices</strong> for aluminum scrap. Free pickup &amp; instant cash.</p>
-            <a href="tel:+966574712106" class="btn-primary">📞 Call for Aluminum Quote</a>
-            <a href="https://wa.me/966574712106" target="_blank" class="btn-outline" style="margin-left:10px;">💬 WhatsApp</a>
-        </div>
-    </section>
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-badge" data-translate="aluminumBadge">🔘 Best Aluminum Scrap Prices in Riyadh</div>
+                <h1 data-translate="aluminumHeroTitle">Aluminum <span>Scrap Buyers</span> in Riyadh</h1>
+                <p data-translate="aluminumHeroText">We buy aluminum windows, doors, cans, sheets, industrial scrap &amp; more. <strong>Highest prices</strong> for aluminum scrap. Free pickup &amp; instant cash.</p>
+                <a href="tel:+966574712106" class="btn-primary" data-translate="aluminumHeroBtn">📞 Call for Aluminum Quote</a>
+                <a href="https://wa.me/966574712106" target="_blank" class="btn-outline" style="margin-left:10px;" data-translate="aluminumHeroWhatsApp">💬 WhatsApp</a>
+            </div>
+        </section>
 
-    <section class="about-section">
-        <div class="container">
-            <h2 class="section-title">Aluminum Scrap <span>Buyers</span></h2>
-            <p class="section-sub">We offer the best aluminum scrap prices in Riyadh.</p>
-            <div class="about-grid">
-                <div>
-                    <h2>We Buy All Types of Aluminum</h2>
-                    <p>We are the leading aluminum scrap buyers in Riyadh. Whether you have aluminum windows, doors, cans, sheets, or industrial aluminum scrap, we offer competitive prices and instant payment.</p>
-                    <h3 style="margin:20px 0 10px;">What We Buy:</h3>
-                    <ul class="about-list">
-                        <li>Aluminum Windows &amp; Doors</li>
-                        <li>Aluminum Cans</li>
-                        <li>Aluminum Sheets</li>
-                        <li>Aluminum Profiles</li>
-                        <li>Industrial Aluminum Scrap</li>
-                        <li>Aluminum Cables</li>
-                        <li>And Much More</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Why Sell Aluminum to Us?</h2>
-                    <ul class="about-list" style="grid-template-columns:1fr;">
-                        <li>🔘 Best aluminum scrap prices in Riyadh</li>
-                        <li>⚡ Instant cash payment</li>
-                        <li>🚚 Free pickup service</li>
-                        <li>🏆 Trusted by hundreds of customers</li>
-                        <li>♻️ Eco-friendly recycling</li>
-                    </ul>
-                    <div style="margin-top:30px; padding:20px; background:#1a1a2e; border-radius:12px; color:#fff;">
-                        📍 Serving all areas of Riyadh<br>
-                        <a href="tel:+966574712106" style="color:#c0c0c0; font-weight:700;">Call Now: +966 57 471 2106</a>
+        <section class="about-section">
+            <div class="container">
+                <h2 class="section-title" data-translate="aluminumAboutTitle">Aluminum Scrap <span>Buyers</span></h2>
+                <p class="section-sub" data-translate="aluminumAboutSub">We offer the best aluminum scrap prices in Riyadh.</p>
+                <div class="about-grid">
+                    <div>
+                        <h2 data-translate="aluminumAboutHeading">We Buy All Types of Aluminum</h2>
+                        <p data-translate="aluminumAboutText1">We are the leading aluminum scrap buyers in Riyadh. Whether you have aluminum windows, doors, cans, sheets, or industrial aluminum scrap, we offer competitive prices and instant payment.</p>
+                        <h3 style="margin:20px 0 10px;" data-translate="aluminumAboutListTitle">What We Buy:</h3>
+                        <ul class="about-list">
+                            <li data-translate="aluminumAboutItem1">Aluminum Windows &amp; Doors</li>
+                            <li data-translate="aluminumAboutItem2">Aluminum Cans</li>
+                            <li data-translate="aluminumAboutItem3">Aluminum Sheets</li>
+                            <li data-translate="aluminumAboutItem4">Aluminum Profiles</li>
+                            <li data-translate="aluminumAboutItem5">Industrial Aluminum Scrap</li>
+                            <li data-translate="aluminumAboutItem6">Aluminum Cables</li>
+                            <li data-translate="aluminumAboutItem7">And Much More</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 data-translate="aluminumWhyTitle">Why Sell Aluminum to Us?</h2>
+                        <ul class="about-list" style="grid-template-columns:1fr;">
+                            <li data-translate="aluminumWhy1">🔘 Best aluminum scrap prices in Riyadh</li>
+                            <li data-translate="aluminumWhy2">⚡ Instant cash payment</li>
+                            <li data-translate="aluminumWhy3">🚚 Free pickup service</li>
+                            <li data-translate="aluminumWhy4">🏆 Trusted by hundreds of customers</li>
+                            <li data-translate="aluminumWhy5">♻️ Eco-friendly recycling</li>
+                        </ul>
+                        <div style="margin-top:30px; padding:20px; background:#1a1a2e; border-radius:12px; color:#fff;">
+                            <span data-translate="aluminumServing">📍 Serving all areas of Riyadh</span><br>
+                            <a href="tel:+966574712106" style="color:#c0c0c0; font-weight:700;" data-translate="aluminumCallNow">Call Now: +966 57 471 2106</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="services-section">
-        <div class="container">
-            <h2 class="section-title">Our <span>Aluminum Services</span></h2>
-            <p class="section-sub">Professional aluminum scrap buying services across Riyadh.</p>
-            <div class="services-grid">
-                <div class="service-card">
-                    <span class="icon">🔘</span>
-                    <h3>Best Aluminum Prices</h3>
-                    <p>We offer the highest prices for aluminum scrap in Riyadh.</p>
-                </div>
-                <div class="service-card">
-                    <span class="icon">🚚</span>
-                    <h3>Free Pickup</h3>
-                    <p>We come to your location anywhere in Riyadh at no cost.</p>
-                </div>
-                <div class="service-card">
-                    <span class="icon">⚡</span>
-                    <h3>Instant Cash</h3>
-                    <p>Get paid immediately upon completion of pickup.</p>
-                </div>
-                <div class="service-card">
-                    <span class="icon">♻️</span>
-                    <h3>Eco-Friendly</h3>
-                    <p>Environmentally responsible aluminum recycling.</p>
+        <section class="services-section">
+            <div class="container">
+                <h2 class="section-title" data-translate="aluminumServicesTitle">Our <span>Aluminum Services</span></h2>
+                <p class="section-sub" data-translate="aluminumServicesSub">Professional aluminum scrap buying services across Riyadh.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <span class="icon">🔘</span>
+                        <h3 data-translate="aluminumService1Title">Best Aluminum Prices</h3>
+                        <p data-translate="aluminumService1Desc">We offer the highest prices for aluminum scrap in Riyadh.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="icon">🚚</span>
+                        <h3 data-translate="aluminumService2Title">Free Pickup</h3>
+                        <p data-translate="aluminumService2Desc">We come to your location anywhere in Riyadh at no cost.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="icon">⚡</span>
+                        <h3 data-translate="aluminumService3Title">Instant Cash</h3>
+                        <p data-translate="aluminumService3Desc">Get paid immediately upon completion of pickup.</p>
+                    </div>
+                    <div class="service-card">
+                        <span class="icon">♻️</span>
+                        <h3 data-translate="aluminumService4Title">Eco-Friendly</h3>
+                        <p data-translate="aluminumService4Desc">Environmentally responsible aluminum recycling.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="cta-section">
-        <div class="container">
-            <h2>📞 Sell <span style="color:#c0c0c0;">Aluminum Scrap</span> Today</h2>
-            <p>Get a free quote and same-day pickup. We pay instant cash!</p>
-            <a href="tel:+966574712106" class="btn-primary">📞 Call Now: +966 57 471 2106</a>
-            <div class="contact-details">
-                <div class="detail">📍 Sulayman Bin Yaseer, Riyadh</div>
-                <div class="detail">🕒 Sat–Thu: 7 AM – 9 PM</div>
-                <div class="detail">💬 <a href="https://wa.me/966574712106" target="_blank">WhatsApp</a></div>
+        <section class="cta-section">
+            <div class="container">
+                <h2 data-translate="aluminumCTATitle">📞 Sell <span style="color:#c0c0c0;">Aluminum Scrap</span> Today</h2>
+                <p data-translate="aluminumCTAText">Get a free quote and same-day pickup. We pay instant cash!</p>
+                <a href="tel:+966574712106" class="btn-primary" data-translate="aluminumCTABtn">📞 Call Now: +966 57 471 2106</a>
+                <div class="contact-details">
+                    <div class="detail" data-translate="aluminumLocation">📍 Sulayman Bin Yaseer, Riyadh</div>
+                    <div class="detail" data-translate="aluminumHours">🕒 Sat–Thu: 7 AM – 9 PM</div>
+                    <div class="detail">💬 <a href="https://wa.me/966574712106" target="_blank" data-translate="aluminumWhatsApp">WhatsApp</a></div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 <strong>Riyadh Scrap Solutions</strong> — <strong style="color:#c0c0c0;">Aluminum Scrap Buyers in Riyadh</strong></p>
+            <p data-translate="footerCopyright">&copy; 2026 <strong>Riyadh Scrap Solutions</strong> — <strong style="color:#c0c0c0;">Aluminum Scrap Buyers in Riyadh</strong></p>
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="/services.html">Services</a>
-                <a href="/about.html">About</a>
-                <a href="/gallery.html">Gallery</a>
-                <a href="/blog.html">Blog</a>
-                <a href="/buyers/">Scrap Buyers</a>
-                <a href="/pickup/">Free Pickup</a>
-                <a href="/copper/">Copper</a>
-                <a href="/aluminum/">Aluminum</a>
-                <a href="/contact.html">Contact</a>
+                <a href="/" data-translate="footerLinkHome">Home</a>
+                <a href="/services.html" data-translate="footerLinkServices">Services</a>
+                <a href="/about.html" data-translate="footerLinkAbout">About</a>
+                <a href="/gallery.html" data-translate="footerLinkGallery">Gallery</a>
+                <a href="/blog.html" data-translate="footerLinkBlog">Blog</a>
+                <a href="/scrap-in-riyadh.html" data-translate="footerLinkScrap">Scrap in Riyadh</a>
+                <a href="/buyers/" data-translate="footerLinkBuyers">Scrap Buyers</a>
+                <a href="/pickup/" data-translate="footerLinkPickup">Free Pickup</a>
+                <a href="/copper/" data-translate="footerLinkCopper">Copper</a>
+                <a href="/aluminum/" data-translate="footerLinkAluminum">Aluminum</a>
+                <a href="/contact.html" data-translate="footerLinkContact">Contact</a>
             </div>
         </div>
     </footer>
 
+    <script src="/translations.js"></script>
     <script>
+        // ===== LANGUAGE DETECTION AND SWITCHING =====
+
+        function getCurrentLanguage() {
+            const savedLang = localStorage.getItem('preferred_language');
+            if (savedLang && ['en', 'ar', 'fil', 'hi'].includes(savedLang)) return savedLang;
+            const browserLang = navigator.language || navigator.languages[0];
+            if (browserLang.startsWith('ar')) return 'ar';
+            if (browserLang.startsWith('fil') || browserLang.startsWith('tl')) return 'fil';
+            if (browserLang.startsWith('hi')) return 'hi';
+            return 'en';
+        }
+
+        function setLanguage(lang) {
+            if (!['en', 'ar', 'fil', 'hi'].includes(lang)) return;
+
+            localStorage.setItem('preferred_language', lang);
+            document.documentElement.lang = lang;
+
+            if (lang === 'ar') {
+                document.documentElement.dir = 'rtl';
+                document.querySelector('body').style.textAlign = 'right';
+            } else {
+                document.documentElement.dir = 'ltr';
+                document.querySelector('body').style.textAlign = 'left';
+            }
+
+            if (typeof translations !== 'undefined' && translations[lang]) {
+                applyTranslations(translations[lang]);
+            }
+            updateLanguageSwitcher(lang);
+        }
+
+        function applyTranslations(t) {
+            document.querySelectorAll('[data-translate]').forEach(el => {
+                const key = el.dataset.translate;
+                if (t[key] !== undefined) {
+                    el.innerHTML = t[key];
+                }
+            });
+        }
+
+        function updateLanguageSwitcher(currentLang) {
+            document.querySelectorAll('.lang-switcher a').forEach(link => {
+                const lang = link.dataset.lang;
+                link.style.fontWeight = lang === currentLang ? '700' : '400';
+                link.style.color = lang === currentLang ? '#1a7a3a' : 'rgba(255,255,255,0.7)';
+            });
+        }
+
         function toggleNav() {
             document.getElementById('mainNav').classList.toggle('open');
         }
+
+        document.querySelectorAll('.main-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mainNav').classList.remove('open');
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentLang = getCurrentLanguage();
+            setLanguage(currentLang);
+        });
     </script>
 
 </body>
